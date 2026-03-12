@@ -1,0 +1,421 @@
+facility_id,block,month,opd_total,institutional_deliveries,c_sections,major_surgeries
+CHC_Salempur,Salempur,Jan-2024,8198,129,18,14
+CHC_Salempur,Salempur,Feb-2024,8711,139,9,20
+CHC_Salempur,Salempur,Mar-2024,9306,139,1,2
+CHC_Salempur,Salempur,Apr-2024,9005,138,3,3
+CHC_Salempur,Salempur,May-2024,8032,82,1,3
+CHC_Salempur,Salempur,Jun-2024,8897,117,1,2
+CHC_Salempur,Salempur,Jul-2024,8699,108,8,18
+CHC_Salempur,Salempur,Aug-2024,8057,133,12,13
+CHC_Salempur,Salempur,Sep-2024,9040,83,6,20
+CHC_Salempur,Salempur,Oct-2024,8285,87,11,21
+CHC_Salempur,Salempur,Nov-2024,8850,127,7,23
+CHC_Salempur,Salempur,Dec-2024,9441,101,7,10
+PHC_Salempur_1,Salempur,Jan-2024,1018,31,4,2
+PHC_Salempur_1,Salempur,Feb-2024,903,39,4,0
+PHC_Salempur_1,Salempur,Mar-2024,870,38,3,3
+PHC_Salempur_1,Salempur,Apr-2024,1046,26,1,3
+PHC_Salempur_1,Salempur,May-2024,1009,38,2,2
+PHC_Salempur_1,Salempur,Jun-2024,972,14,1,0
+PHC_Salempur_1,Salempur,Jul-2024,922,12,1,3
+PHC_Salempur_1,Salempur,Aug-2024,926,30,2,0
+PHC_Salempur_1,Salempur,Sep-2024,1044,27,2,1
+PHC_Salempur_1,Salempur,Oct-2024,914,23,1,1
+PHC_Salempur_1,Salempur,Nov-2024,1029,19,2,0
+PHC_Salempur_1,Salempur,Dec-2024,922,18,2,4
+PHC_Salempur_2,Salempur,Jan-2024,858,12,0,4
+PHC_Salempur_2,Salempur,Feb-2024,879,16,1,4
+PHC_Salempur_2,Salempur,Mar-2024,1009,17,2,3
+PHC_Salempur_2,Salempur,Apr-2024,925,24,2,1
+PHC_Salempur_2,Salempur,May-2024,944,31,2,1
+PHC_Salempur_2,Salempur,Jun-2024,849,38,5,1
+PHC_Salempur_2,Salempur,Jul-2024,867,29,1,2
+PHC_Salempur_2,Salempur,Aug-2024,883,10,1,3
+PHC_Salempur_2,Salempur,Sep-2024,879,14,1,4
+PHC_Salempur_2,Salempur,Oct-2024,868,39,4,3
+PHC_Salempur_2,Salempur,Nov-2024,992,27,2,2
+PHC_Salempur_2,Salempur,Dec-2024,848,28,2,1
+PHC_Salempur_3,Salempur,Jan-2024,535,39,5,0
+PHC_Salempur_3,Salempur,Feb-2024,510,10,0,0
+PHC_Salempur_3,Salempur,Mar-2024,532,39,2,0
+PHC_Salempur_3,Salempur,Apr-2024,540,30,3,4
+PHC_Salempur_3,Salempur,May-2024,489,14,1,2
+PHC_Salempur_3,Salempur,Jun-2024,499,25,1,0
+PHC_Salempur_3,Salempur,Jul-2024,496,37,2,0
+PHC_Salempur_3,Salempur,Aug-2024,466,39,4,3
+PHC_Salempur_3,Salempur,Sep-2024,482,35,3,3
+PHC_Salempur_3,Salempur,Oct-2024,527,39,4,1
+PHC_Salempur_3,Salempur,Nov-2024,503,14,1,3
+PHC_Salempur_3,Salempur,Dec-2024,520,35,5,0
+PHC_Salempur_4,Salempur,Jan-2024,828,25,1,1
+PHC_Salempur_4,Salempur,Feb-2024,894,36,4,3
+PHC_Salempur_4,Salempur,Mar-2024,923,37,2,4
+PHC_Salempur_4,Salempur,Apr-2024,999,14,1,0
+PHC_Salempur_4,Salempur,May-2024,836,19,1,4
+PHC_Salempur_4,Salempur,Jun-2024,936,23,1,2
+PHC_Salempur_4,Salempur,Jul-2024,978,32,1,4
+PHC_Salempur_4,Salempur,Aug-2024,875,35,2,2
+PHC_Salempur_4,Salempur,Sep-2024,938,13,1,1
+PHC_Salempur_4,Salempur,Oct-2024,970,38,2,0
+PHC_Salempur_4,Salempur,Nov-2024,960,34,3,4
+PHC_Salempur_4,Salempur,Dec-2024,891,12,1,3
+PHC_Salempur_5,Salempur,Jan-2024,469,33,4,4
+PHC_Salempur_5,Salempur,Feb-2024,469,32,4,0
+PHC_Salempur_5,Salempur,Mar-2024,527,39,5,3
+PHC_Salempur_5,Salempur,Apr-2024,484,31,2,2
+PHC_Salempur_5,Salempur,May-2024,454,21,3,2
+PHC_Salempur_5,Salempur,Jun-2024,502,16,2,3
+PHC_Salempur_5,Salempur,Jul-2024,474,24,1,4
+PHC_Salempur_5,Salempur,Aug-2024,519,34,3,4
+PHC_Salempur_5,Salempur,Sep-2024,537,32,4,4
+PHC_Salempur_5,Salempur,Oct-2024,489,35,1,1
+PHC_Salempur_5,Salempur,Nov-2024,457,32,3,2
+PHC_Salempur_5,Salempur,Dec-2024,506,21,2,1
+PHC_Salempur_6,Salempur,Jan-2024,1583,15,0,4
+PHC_Salempur_6,Salempur,Feb-2024,1557,18,2,1
+PHC_Salempur_6,Salempur,Mar-2024,1703,38,2,2
+PHC_Salempur_6,Salempur,Apr-2024,1587,22,1,3
+PHC_Salempur_6,Salempur,May-2024,1625,16,2,3
+PHC_Salempur_6,Salempur,Jun-2024,1635,37,2,4
+PHC_Salempur_6,Salempur,Jul-2024,1619,16,1,1
+PHC_Salempur_6,Salempur,Aug-2024,1644,39,3,4
+PHC_Salempur_6,Salempur,Sep-2024,1765,39,2,3
+PHC_Salempur_6,Salempur,Oct-2024,1703,18,2,2
+PHC_Salempur_6,Salempur,Nov-2024,1604,39,3,3
+PHC_Salempur_6,Salempur,Dec-2024,1831,33,3,4
+CHC_Barhaj,Barhaj,Jan-2024,6067,124,18,19
+CHC_Barhaj,Barhaj,Feb-2024,5349,133,18,9
+CHC_Barhaj,Barhaj,Mar-2024,5251,98,14,22
+CHC_Barhaj,Barhaj,Apr-2024,5770,128,15,5
+CHC_Barhaj,Barhaj,May-2024,5380,133,11,15
+CHC_Barhaj,Barhaj,Jun-2024,5577,111,6,10
+CHC_Barhaj,Barhaj,Jul-2024,5586,107,8,8
+CHC_Barhaj,Barhaj,Aug-2024,6160,137,9,9
+CHC_Barhaj,Barhaj,Sep-2024,5379,106,12,21
+CHC_Barhaj,Barhaj,Oct-2024,5247,132,17,20
+CHC_Barhaj,Barhaj,Nov-2024,6133,125,7,10
+CHC_Barhaj,Barhaj,Dec-2024,5157,84,9,6
+PHC_Barhaj_1,Barhaj,Jan-2024,1083,27,2,4
+PHC_Barhaj_1,Barhaj,Feb-2024,1313,10,1,1
+PHC_Barhaj_1,Barhaj,Mar-2024,1168,26,2,1
+PHC_Barhaj_1,Barhaj,Apr-2024,1277,31,4,0
+PHC_Barhaj_1,Barhaj,May-2024,1080,11,0,0
+PHC_Barhaj_1,Barhaj,Jun-2024,1205,32,4,0
+PHC_Barhaj_1,Barhaj,Jul-2024,1217,14,2,4
+PHC_Barhaj_1,Barhaj,Aug-2024,1167,30,4,1
+PHC_Barhaj_1,Barhaj,Sep-2024,1305,30,2,0
+PHC_Barhaj_1,Barhaj,Oct-2024,1238,22,1,0
+PHC_Barhaj_1,Barhaj,Nov-2024,1196,11,0,1
+PHC_Barhaj_1,Barhaj,Dec-2024,1150,31,3,2
+PHC_Barhaj_2,Barhaj,Jan-2024,1448,21,2,2
+PHC_Barhaj_2,Barhaj,Feb-2024,1512,25,2,4
+PHC_Barhaj_2,Barhaj,Mar-2024,1618,11,1,3
+PHC_Barhaj_2,Barhaj,Apr-2024,1356,27,2,2
+PHC_Barhaj_2,Barhaj,May-2024,1560,11,0,0
+PHC_Barhaj_2,Barhaj,Jun-2024,1584,37,2,1
+PHC_Barhaj_2,Barhaj,Jul-2024,1603,14,1,1
+PHC_Barhaj_2,Barhaj,Aug-2024,1464,19,2,3
+PHC_Barhaj_2,Barhaj,Sep-2024,1426,11,1,1
+PHC_Barhaj_2,Barhaj,Oct-2024,1351,20,2,2
+PHC_Barhaj_2,Barhaj,Nov-2024,1370,34,3,2
+PHC_Barhaj_2,Barhaj,Dec-2024,1431,17,1,3
+PHC_Barhaj_3,Barhaj,Jan-2024,1650,12,1,1
+PHC_Barhaj_3,Barhaj,Feb-2024,1567,28,1,4
+PHC_Barhaj_3,Barhaj,Mar-2024,1633,19,1,4
+PHC_Barhaj_3,Barhaj,Apr-2024,1745,14,1,1
+PHC_Barhaj_3,Barhaj,May-2024,1560,26,2,4
+PHC_Barhaj_3,Barhaj,Jun-2024,1678,35,4,0
+PHC_Barhaj_3,Barhaj,Jul-2024,1457,33,4,4
+PHC_Barhaj_3,Barhaj,Aug-2024,1649,13,1,0
+PHC_Barhaj_3,Barhaj,Sep-2024,1702,29,2,1
+PHC_Barhaj_3,Barhaj,Oct-2024,1476,23,2,4
+PHC_Barhaj_3,Barhaj,Nov-2024,1745,36,2,2
+PHC_Barhaj_3,Barhaj,Dec-2024,1490,23,2,3
+PHC_Barhaj_4,Barhaj,Jan-2024,2020,15,1,0
+PHC_Barhaj_4,Barhaj,Feb-2024,2060,37,1,0
+PHC_Barhaj_4,Barhaj,Mar-2024,1826,31,2,3
+PHC_Barhaj_4,Barhaj,Apr-2024,1873,22,2,3
+PHC_Barhaj_4,Barhaj,May-2024,1943,18,1,3
+PHC_Barhaj_4,Barhaj,Jun-2024,1953,11,1,0
+PHC_Barhaj_4,Barhaj,Jul-2024,1985,19,1,3
+PHC_Barhaj_4,Barhaj,Aug-2024,2116,11,0,2
+PHC_Barhaj_4,Barhaj,Sep-2024,1775,14,2,4
+PHC_Barhaj_4,Barhaj,Oct-2024,2064,15,1,3
+PHC_Barhaj_4,Barhaj,Nov-2024,1767,39,3,0
+PHC_Barhaj_4,Barhaj,Dec-2024,2115,28,1,4
+PHC_Barhaj_5,Barhaj,Jan-2024,1783,15,1,3
+PHC_Barhaj_5,Barhaj,Feb-2024,1642,24,3,0
+PHC_Barhaj_5,Barhaj,Mar-2024,1717,15,1,0
+PHC_Barhaj_5,Barhaj,Apr-2024,1757,20,2,2
+PHC_Barhaj_5,Barhaj,May-2024,1621,14,0,3
+PHC_Barhaj_5,Barhaj,Jun-2024,1519,10,1,3
+PHC_Barhaj_5,Barhaj,Jul-2024,1648,35,4,4
+PHC_Barhaj_5,Barhaj,Aug-2024,1498,13,1,2
+PHC_Barhaj_5,Barhaj,Sep-2024,1502,27,2,4
+PHC_Barhaj_5,Barhaj,Oct-2024,1510,21,1,1
+PHC_Barhaj_5,Barhaj,Nov-2024,1677,14,0,0
+PHC_Barhaj_5,Barhaj,Dec-2024,1596,33,3,2
+PHC_Barhaj_6,Barhaj,Jan-2024,750,37,5,4
+PHC_Barhaj_6,Barhaj,Feb-2024,654,18,1,2
+PHC_Barhaj_6,Barhaj,Mar-2024,766,17,2,3
+PHC_Barhaj_6,Barhaj,Apr-2024,674,17,2,4
+PHC_Barhaj_6,Barhaj,May-2024,762,39,5,4
+PHC_Barhaj_6,Barhaj,Jun-2024,690,36,4,3
+PHC_Barhaj_6,Barhaj,Jul-2024,734,19,1,2
+PHC_Barhaj_6,Barhaj,Aug-2024,678,10,1,0
+PHC_Barhaj_6,Barhaj,Sep-2024,723,10,0,1
+PHC_Barhaj_6,Barhaj,Oct-2024,707,17,1,2
+PHC_Barhaj_6,Barhaj,Nov-2024,665,12,1,1
+PHC_Barhaj_6,Barhaj,Dec-2024,721,24,3,0
+CHC_Rudrapur,Rudrapur,Jan-2024,3418,106,13,10
+CHC_Rudrapur,Rudrapur,Feb-2024,2950,116,14,5
+CHC_Rudrapur,Rudrapur,Mar-2024,3499,101,12,9
+CHC_Rudrapur,Rudrapur,Apr-2024,3000,112,6,17
+CHC_Rudrapur,Rudrapur,May-2024,3187,115,11,24
+CHC_Rudrapur,Rudrapur,Jun-2024,3194,108,11,19
+CHC_Rudrapur,Rudrapur,Jul-2024,3380,124,15,23
+CHC_Rudrapur,Rudrapur,Aug-2024,3466,115,13,9
+CHC_Rudrapur,Rudrapur,Sep-2024,3189,89,7,10
+CHC_Rudrapur,Rudrapur,Oct-2024,3028,126,9,15
+CHC_Rudrapur,Rudrapur,Nov-2024,3326,92,5,22
+CHC_Rudrapur,Rudrapur,Dec-2024,3535,126,15,15
+PHC_Rudrapur_1,Rudrapur,Jan-2024,786,25,2,4
+PHC_Rudrapur_1,Rudrapur,Feb-2024,689,19,2,1
+PHC_Rudrapur_1,Rudrapur,Mar-2024,819,28,3,0
+PHC_Rudrapur_1,Rudrapur,Apr-2024,828,32,1,4
+PHC_Rudrapur_1,Rudrapur,May-2024,729,23,1,0
+PHC_Rudrapur_1,Rudrapur,Jun-2024,736,31,3,4
+PHC_Rudrapur_1,Rudrapur,Jul-2024,798,30,2,3
+PHC_Rudrapur_1,Rudrapur,Aug-2024,760,35,2,3
+PHC_Rudrapur_1,Rudrapur,Sep-2024,752,20,2,1
+PHC_Rudrapur_1,Rudrapur,Oct-2024,684,36,3,2
+PHC_Rudrapur_1,Rudrapur,Nov-2024,754,36,2,0
+PHC_Rudrapur_1,Rudrapur,Dec-2024,734,15,0,0
+PHC_Rudrapur_2,Rudrapur,Jan-2024,435,20,2,3
+PHC_Rudrapur_2,Rudrapur,Feb-2024,458,26,1,3
+PHC_Rudrapur_2,Rudrapur,Mar-2024,465,29,2,3
+PHC_Rudrapur_2,Rudrapur,Apr-2024,444,17,1,0
+PHC_Rudrapur_2,Rudrapur,May-2024,489,39,4,2
+PHC_Rudrapur_2,Rudrapur,Jun-2024,473,39,2,4
+PHC_Rudrapur_2,Rudrapur,Jul-2024,421,38,3,2
+PHC_Rudrapur_2,Rudrapur,Aug-2024,464,23,2,1
+PHC_Rudrapur_2,Rudrapur,Sep-2024,430,37,3,2
+PHC_Rudrapur_2,Rudrapur,Oct-2024,450,10,0,2
+PHC_Rudrapur_2,Rudrapur,Nov-2024,453,19,2,1
+PHC_Rudrapur_2,Rudrapur,Dec-2024,495,32,4,1
+PHC_Rudrapur_3,Rudrapur,Jan-2024,1354,10,1,2
+PHC_Rudrapur_3,Rudrapur,Feb-2024,1516,36,3,0
+PHC_Rudrapur_3,Rudrapur,Mar-2024,1356,12,1,3
+PHC_Rudrapur_3,Rudrapur,Apr-2024,1563,11,1,2
+PHC_Rudrapur_3,Rudrapur,May-2024,1404,29,3,4
+PHC_Rudrapur_3,Rudrapur,Jun-2024,1312,32,4,1
+PHC_Rudrapur_3,Rudrapur,Jul-2024,1538,32,4,4
+PHC_Rudrapur_3,Rudrapur,Aug-2024,1548,38,3,1
+PHC_Rudrapur_3,Rudrapur,Sep-2024,1524,14,1,1
+PHC_Rudrapur_3,Rudrapur,Oct-2024,1525,12,1,3
+PHC_Rudrapur_3,Rudrapur,Nov-2024,1412,14,1,0
+PHC_Rudrapur_3,Rudrapur,Dec-2024,1506,21,1,1
+PHC_Rudrapur_4,Rudrapur,Jan-2024,1837,26,3,2
+PHC_Rudrapur_4,Rudrapur,Feb-2024,1624,26,2,0
+PHC_Rudrapur_4,Rudrapur,Mar-2024,1620,17,2,0
+PHC_Rudrapur_4,Rudrapur,Apr-2024,1577,31,3,3
+PHC_Rudrapur_4,Rudrapur,May-2024,1538,38,2,4
+PHC_Rudrapur_4,Rudrapur,Jun-2024,1729,27,2,1
+PHC_Rudrapur_4,Rudrapur,Jul-2024,1754,15,0,4
+PHC_Rudrapur_4,Rudrapur,Aug-2024,1536,35,4,4
+PHC_Rudrapur_4,Rudrapur,Sep-2024,1736,30,2,2
+PHC_Rudrapur_4,Rudrapur,Oct-2024,1592,21,2,4
+PHC_Rudrapur_4,Rudrapur,Nov-2024,1663,22,2,4
+PHC_Rudrapur_4,Rudrapur,Dec-2024,1589,35,3,1
+PHC_Rudrapur_5,Rudrapur,Jan-2024,1882,10,0,3
+PHC_Rudrapur_5,Rudrapur,Feb-2024,1734,38,3,2
+PHC_Rudrapur_5,Rudrapur,Mar-2024,1946,26,3,2
+PHC_Rudrapur_5,Rudrapur,Apr-2024,1780,32,3,4
+PHC_Rudrapur_5,Rudrapur,May-2024,1665,35,1,3
+PHC_Rudrapur_5,Rudrapur,Jun-2024,1820,29,1,2
+PHC_Rudrapur_5,Rudrapur,Jul-2024,1645,11,1,1
+PHC_Rudrapur_5,Rudrapur,Aug-2024,1784,18,1,0
+PHC_Rudrapur_5,Rudrapur,Sep-2024,1695,20,2,0
+PHC_Rudrapur_5,Rudrapur,Oct-2024,1855,12,0,3
+PHC_Rudrapur_5,Rudrapur,Nov-2024,1736,39,1,3
+PHC_Rudrapur_5,Rudrapur,Dec-2024,1656,21,2,0
+PHC_Rudrapur_6,Rudrapur,Jan-2024,735,34,3,3
+PHC_Rudrapur_6,Rudrapur,Feb-2024,766,33,4,4
+PHC_Rudrapur_6,Rudrapur,Mar-2024,787,14,1,0
+PHC_Rudrapur_6,Rudrapur,Apr-2024,663,21,1,1
+PHC_Rudrapur_6,Rudrapur,May-2024,741,35,1,1
+PHC_Rudrapur_6,Rudrapur,Jun-2024,725,26,1,4
+PHC_Rudrapur_6,Rudrapur,Jul-2024,762,16,0,4
+PHC_Rudrapur_6,Rudrapur,Aug-2024,717,28,3,1
+PHC_Rudrapur_6,Rudrapur,Sep-2024,779,38,3,3
+PHC_Rudrapur_6,Rudrapur,Oct-2024,750,27,2,0
+PHC_Rudrapur_6,Rudrapur,Nov-2024,726,33,2,3
+PHC_Rudrapur_6,Rudrapur,Dec-2024,761,12,1,1
+CHC_Bhatpar Rani,Bhatpar Rani,Jan-2024,6508,118,9,21
+CHC_Bhatpar Rani,Bhatpar Rani,Feb-2024,6485,101,8,22
+CHC_Bhatpar Rani,Bhatpar Rani,Mar-2024,5844,124,13,6
+CHC_Bhatpar Rani,Bhatpar Rani,Apr-2024,6496,121,18,17
+CHC_Bhatpar Rani,Bhatpar Rani,May-2024,5825,111,15,11
+CHC_Bhatpar Rani,Bhatpar Rani,Jun-2024,6623,108,13,16
+CHC_Bhatpar Rani,Bhatpar Rani,Jul-2024,5931,135,10,14
+CHC_Bhatpar Rani,Bhatpar Rani,Aug-2024,6121,118,12,5
+CHC_Bhatpar Rani,Bhatpar Rani,Sep-2024,6195,82,7,22
+CHC_Bhatpar Rani,Bhatpar Rani,Oct-2024,6989,116,6,5
+CHC_Bhatpar Rani,Bhatpar Rani,Nov-2024,6319,94,8,21
+CHC_Bhatpar Rani,Bhatpar Rani,Dec-2024,6828,83,5,9
+PHC_Bhatpar Rani_1,Bhatpar Rani,Jan-2024,1446,37,3,2
+PHC_Bhatpar Rani_1,Bhatpar Rani,Feb-2024,1221,11,0,3
+PHC_Bhatpar Rani_1,Bhatpar Rani,Mar-2024,1426,17,2,4
+PHC_Bhatpar Rani_1,Bhatpar Rani,Apr-2024,1306,23,1,1
+PHC_Bhatpar Rani_1,Bhatpar Rani,May-2024,1425,18,1,2
+PHC_Bhatpar Rani_1,Bhatpar Rani,Jun-2024,1342,14,0,0
+PHC_Bhatpar Rani_1,Bhatpar Rani,Jul-2024,1273,29,4,4
+PHC_Bhatpar Rani_1,Bhatpar Rani,Aug-2024,1245,12,1,0
+PHC_Bhatpar Rani_1,Bhatpar Rani,Sep-2024,1347,12,0,4
+PHC_Bhatpar Rani_1,Bhatpar Rani,Oct-2024,1228,18,2,4
+PHC_Bhatpar Rani_1,Bhatpar Rani,Nov-2024,1238,18,1,2
+PHC_Bhatpar Rani_1,Bhatpar Rani,Dec-2024,1434,18,0,1
+PHC_Bhatpar Rani_2,Bhatpar Rani,Jan-2024,963,24,2,4
+PHC_Bhatpar Rani_2,Bhatpar Rani,Feb-2024,961,11,0,2
+PHC_Bhatpar Rani_2,Bhatpar Rani,Mar-2024,868,35,3,4
+PHC_Bhatpar Rani_2,Bhatpar Rani,Apr-2024,984,22,3,4
+PHC_Bhatpar Rani_2,Bhatpar Rani,May-2024,994,17,2,4
+PHC_Bhatpar Rani_2,Bhatpar Rani,Jun-2024,928,12,1,1
+PHC_Bhatpar Rani_2,Bhatpar Rani,Jul-2024,987,22,1,2
+PHC_Bhatpar Rani_2,Bhatpar Rani,Aug-2024,857,37,4,2
+PHC_Bhatpar Rani_2,Bhatpar Rani,Sep-2024,999,22,2,0
+PHC_Bhatpar Rani_2,Bhatpar Rani,Oct-2024,857,13,1,3
+PHC_Bhatpar Rani_2,Bhatpar Rani,Nov-2024,833,20,2,0
+PHC_Bhatpar Rani_2,Bhatpar Rani,Dec-2024,870,32,1,2
+PHC_Bhatpar Rani_3,Bhatpar Rani,Jan-2024,1976,27,3,4
+PHC_Bhatpar Rani_3,Bhatpar Rani,Feb-2024,2020,16,1,4
+PHC_Bhatpar Rani_3,Bhatpar Rani,Mar-2024,2026,26,2,1
+PHC_Bhatpar Rani_3,Bhatpar Rani,Apr-2024,2077,33,4,2
+PHC_Bhatpar Rani_3,Bhatpar Rani,May-2024,1911,19,1,1
+PHC_Bhatpar Rani_3,Bhatpar Rani,Jun-2024,1817,37,2,4
+PHC_Bhatpar Rani_3,Bhatpar Rani,Jul-2024,1803,13,0,3
+PHC_Bhatpar Rani_3,Bhatpar Rani,Aug-2024,1803,36,2,3
+PHC_Bhatpar Rani_3,Bhatpar Rani,Sep-2024,1806,19,1,1
+PHC_Bhatpar Rani_3,Bhatpar Rani,Oct-2024,1952,27,3,4
+PHC_Bhatpar Rani_3,Bhatpar Rani,Nov-2024,1928,36,2,4
+PHC_Bhatpar Rani_3,Bhatpar Rani,Dec-2024,1876,38,1,2
+PHC_Bhatpar Rani_4,Bhatpar Rani,Jan-2024,2135,11,0,4
+PHC_Bhatpar Rani_4,Bhatpar Rani,Feb-2024,2036,12,1,4
+PHC_Bhatpar Rani_4,Bhatpar Rani,Mar-2024,2021,29,3,3
+PHC_Bhatpar Rani_4,Bhatpar Rani,Apr-2024,1777,36,4,3
+PHC_Bhatpar Rani_4,Bhatpar Rani,May-2024,2015,38,5,4
+PHC_Bhatpar Rani_4,Bhatpar Rani,Jun-2024,2150,15,1,4
+PHC_Bhatpar Rani_4,Bhatpar Rani,Jul-2024,1848,10,0,1
+PHC_Bhatpar Rani_4,Bhatpar Rani,Aug-2024,1985,26,2,3
+PHC_Bhatpar Rani_4,Bhatpar Rani,Sep-2024,1837,21,2,3
+PHC_Bhatpar Rani_4,Bhatpar Rani,Oct-2024,2096,26,1,2
+PHC_Bhatpar Rani_4,Bhatpar Rani,Nov-2024,1816,29,1,4
+PHC_Bhatpar Rani_4,Bhatpar Rani,Dec-2024,2006,30,4,1
+PHC_Bhatpar Rani_5,Bhatpar Rani,Jan-2024,2023,24,2,0
+PHC_Bhatpar Rani_5,Bhatpar Rani,Feb-2024,1846,29,2,0
+PHC_Bhatpar Rani_5,Bhatpar Rani,Mar-2024,2016,31,3,4
+PHC_Bhatpar Rani_5,Bhatpar Rani,Apr-2024,1842,17,1,4
+PHC_Bhatpar Rani_5,Bhatpar Rani,May-2024,1973,30,1,1
+PHC_Bhatpar Rani_5,Bhatpar Rani,Jun-2024,2082,15,1,4
+PHC_Bhatpar Rani_5,Bhatpar Rani,Jul-2024,1973,37,4,2
+PHC_Bhatpar Rani_5,Bhatpar Rani,Aug-2024,2173,33,2,3
+PHC_Bhatpar Rani_5,Bhatpar Rani,Sep-2024,2061,24,2,3
+PHC_Bhatpar Rani_5,Bhatpar Rani,Oct-2024,1912,19,2,1
+PHC_Bhatpar Rani_5,Bhatpar Rani,Nov-2024,1921,11,1,0
+PHC_Bhatpar Rani_5,Bhatpar Rani,Dec-2024,1940,10,1,1
+PHC_Bhatpar Rani_6,Bhatpar Rani,Jan-2024,628,15,1,1
+PHC_Bhatpar Rani_6,Bhatpar Rani,Feb-2024,546,11,0,3
+PHC_Bhatpar Rani_6,Bhatpar Rani,Mar-2024,537,20,1,2
+PHC_Bhatpar Rani_6,Bhatpar Rani,Apr-2024,617,15,1,0
+PHC_Bhatpar Rani_6,Bhatpar Rani,May-2024,628,17,2,3
+PHC_Bhatpar Rani_6,Bhatpar Rani,Jun-2024,639,39,4,2
+PHC_Bhatpar Rani_6,Bhatpar Rani,Jul-2024,590,13,1,1
+PHC_Bhatpar Rani_6,Bhatpar Rani,Aug-2024,619,18,1,2
+PHC_Bhatpar Rani_6,Bhatpar Rani,Sep-2024,590,21,1,4
+PHC_Bhatpar Rani_6,Bhatpar Rani,Oct-2024,621,28,2,3
+PHC_Bhatpar Rani_6,Bhatpar Rani,Nov-2024,552,38,4,2
+PHC_Bhatpar Rani_6,Bhatpar Rani,Dec-2024,651,15,1,4
+CHC_Deoria Sadar,Deoria Sadar,Jan-2024,4824,138,15,14
+CHC_Deoria Sadar,Deoria Sadar,Feb-2024,4681,108,9,19
+CHC_Deoria Sadar,Deoria Sadar,Mar-2024,5046,91,6,24
+CHC_Deoria Sadar,Deoria Sadar,Apr-2024,4924,107,9,24
+CHC_Deoria Sadar,Deoria Sadar,May-2024,4859,129,17,13
+CHC_Deoria Sadar,Deoria Sadar,Jun-2024,5287,132,11,8
+CHC_Deoria Sadar,Deoria Sadar,Jul-2024,4700,113,14,11
+CHC_Deoria Sadar,Deoria Sadar,Aug-2024,4805,130,10,16
+CHC_Deoria Sadar,Deoria Sadar,Sep-2024,4660,97,10,19
+CHC_Deoria Sadar,Deoria Sadar,Oct-2024,5020,105,12,20
+CHC_Deoria Sadar,Deoria Sadar,Nov-2024,4932,121,8,18
+CHC_Deoria Sadar,Deoria Sadar,Dec-2024,4858,116,15,17
+PHC_Deoria Sadar_1,Deoria Sadar,Jan-2024,1987,37,3,0
+PHC_Deoria Sadar_1,Deoria Sadar,Feb-2024,1852,16,1,2
+PHC_Deoria Sadar_1,Deoria Sadar,Mar-2024,1735,37,2,4
+PHC_Deoria Sadar_1,Deoria Sadar,Apr-2024,2105,10,1,3
+PHC_Deoria Sadar_1,Deoria Sadar,May-2024,1760,24,1,1
+PHC_Deoria Sadar_1,Deoria Sadar,Jun-2024,1862,23,1,4
+PHC_Deoria Sadar_1,Deoria Sadar,Jul-2024,1828,39,2,4
+PHC_Deoria Sadar_1,Deoria Sadar,Aug-2024,1796,20,2,0
+PHC_Deoria Sadar_1,Deoria Sadar,Sep-2024,2016,29,2,2
+PHC_Deoria Sadar_1,Deoria Sadar,Oct-2024,2057,14,1,0
+PHC_Deoria Sadar_1,Deoria Sadar,Nov-2024,1940,21,1,3
+PHC_Deoria Sadar_1,Deoria Sadar,Dec-2024,1779,29,2,1
+PHC_Deoria Sadar_2,Deoria Sadar,Jan-2024,1586,29,1,0
+PHC_Deoria Sadar_2,Deoria Sadar,Feb-2024,1652,15,1,2
+PHC_Deoria Sadar_2,Deoria Sadar,Mar-2024,1595,26,2,3
+PHC_Deoria Sadar_2,Deoria Sadar,Apr-2024,1546,30,2,2
+PHC_Deoria Sadar_2,Deoria Sadar,May-2024,1842,11,0,4
+PHC_Deoria Sadar_2,Deoria Sadar,Jun-2024,1661,33,3,1
+PHC_Deoria Sadar_2,Deoria Sadar,Jul-2024,1593,15,0,4
+PHC_Deoria Sadar_2,Deoria Sadar,Aug-2024,1609,27,1,1
+PHC_Deoria Sadar_2,Deoria Sadar,Sep-2024,1875,32,3,4
+PHC_Deoria Sadar_2,Deoria Sadar,Oct-2024,1672,24,2,1
+PHC_Deoria Sadar_2,Deoria Sadar,Nov-2024,1829,39,3,0
+PHC_Deoria Sadar_2,Deoria Sadar,Dec-2024,1583,24,2,3
+PHC_Deoria Sadar_3,Deoria Sadar,Jan-2024,701,23,3,0
+PHC_Deoria Sadar_3,Deoria Sadar,Feb-2024,755,25,3,4
+PHC_Deoria Sadar_3,Deoria Sadar,Mar-2024,759,39,4,1
+PHC_Deoria Sadar_3,Deoria Sadar,Apr-2024,799,18,2,0
+PHC_Deoria Sadar_3,Deoria Sadar,May-2024,685,18,1,0
+PHC_Deoria Sadar_3,Deoria Sadar,Jun-2024,768,11,0,3
+PHC_Deoria Sadar_3,Deoria Sadar,Jul-2024,788,15,2,4
+PHC_Deoria Sadar_3,Deoria Sadar,Aug-2024,687,28,3,0
+PHC_Deoria Sadar_3,Deoria Sadar,Sep-2024,717,31,3,4
+PHC_Deoria Sadar_3,Deoria Sadar,Oct-2024,726,21,2,4
+PHC_Deoria Sadar_3,Deoria Sadar,Nov-2024,750,38,3,0
+PHC_Deoria Sadar_3,Deoria Sadar,Dec-2024,756,12,0,1
+PHC_Deoria Sadar_4,Deoria Sadar,Jan-2024,1357,23,2,1
+PHC_Deoria Sadar_4,Deoria Sadar,Feb-2024,1361,12,1,1
+PHC_Deoria Sadar_4,Deoria Sadar,Mar-2024,1334,30,3,0
+PHC_Deoria Sadar_4,Deoria Sadar,Apr-2024,1360,11,1,3
+PHC_Deoria Sadar_4,Deoria Sadar,May-2024,1425,20,2,1
+PHC_Deoria Sadar_4,Deoria Sadar,Jun-2024,1232,20,1,2
+PHC_Deoria Sadar_4,Deoria Sadar,Jul-2024,1409,24,1,0
+PHC_Deoria Sadar_4,Deoria Sadar,Aug-2024,1361,28,1,4
+PHC_Deoria Sadar_4,Deoria Sadar,Sep-2024,1399,28,1,4
+PHC_Deoria Sadar_4,Deoria Sadar,Oct-2024,1484,30,2,2
+PHC_Deoria Sadar_4,Deoria Sadar,Nov-2024,1397,37,3,1
+PHC_Deoria Sadar_4,Deoria Sadar,Dec-2024,1343,27,2,4
+PHC_Deoria Sadar_5,Deoria Sadar,Jan-2024,1655,39,2,3
+PHC_Deoria Sadar_5,Deoria Sadar,Feb-2024,1791,22,1,0
+PHC_Deoria Sadar_5,Deoria Sadar,Mar-2024,1762,19,2,3
+PHC_Deoria Sadar_5,Deoria Sadar,Apr-2024,1606,16,2,3
+PHC_Deoria Sadar_5,Deoria Sadar,May-2024,1803,19,1,4
+PHC_Deoria Sadar_5,Deoria Sadar,Jun-2024,1671,31,3,3
+PHC_Deoria Sadar_5,Deoria Sadar,Jul-2024,1718,18,2,1
+PHC_Deoria Sadar_5,Deoria Sadar,Aug-2024,1674,19,2,0
+PHC_Deoria Sadar_5,Deoria Sadar,Sep-2024,1892,14,1,2
+PHC_Deoria Sadar_5,Deoria Sadar,Oct-2024,1862,16,1,1
+PHC_Deoria Sadar_5,Deoria Sadar,Nov-2024,1645,19,1,1
+PHC_Deoria Sadar_5,Deoria Sadar,Dec-2024,1758,26,3,1
+PHC_Deoria Sadar_6,Deoria Sadar,Jan-2024,1090,26,1,4
+PHC_Deoria Sadar_6,Deoria Sadar,Feb-2024,1003,37,2,2
+PHC_Deoria Sadar_6,Deoria Sadar,Mar-2024,1059,23,2,0
+PHC_Deoria Sadar_6,Deoria Sadar,Apr-2024,1097,11,0,4
+PHC_Deoria Sadar_6,Deoria Sadar,May-2024,1100,19,1,0
+PHC_Deoria Sadar_6,Deoria Sadar,Jun-2024,1081,16,1,2
+PHC_Deoria Sadar_6,Deoria Sadar,Jul-2024,970,15,1,4
+PHC_Deoria Sadar_6,Deoria Sadar,Aug-2024,994,17,1,3
+PHC_Deoria Sadar_6,Deoria Sadar,Sep-2024,1084,17,1,0
+PHC_Deoria Sadar_6,Deoria Sadar,Oct-2024,1095,22,2,1
+PHC_Deoria Sadar_6,Deoria Sadar,Nov-2024,1011,21,1,4
+PHC_Deoria Sadar_6,Deoria Sadar,Dec-2024,1022,17,1,3

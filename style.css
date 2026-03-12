@@ -522,6 +522,9 @@ html {
     border-left: 4px solid var(--primary-color);
     transition: all 0.3s ease;
     position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .insight-card.critical {
@@ -545,14 +548,26 @@ html {
     box-shadow: var(--shadow-lg);
 }
 
+.insight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
 .insight-type {
     display: inline-block;
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.75rem;
     font-weight: 600;
-    margin-bottom: 0.75rem;
     text-transform: uppercase;
+}
+
+.insight-expand-icon {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    transition: transform 0.3s ease;
 }
 
 .insight-card.critical .insight-type {
@@ -575,10 +590,47 @@ html {
     color: var(--positive-color);
 }
 
-.insight-text {
-    font-size: 1rem;
-    line-height: 1.6;
+.insight-summary {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5;
     color: var(--text-primary);
+    flex: 1;
+}
+
+.insight-detail {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+    flex: 1;
+}
+
+.insight-sources {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.sources-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.source-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-transform: capitalize;
 }
 
 /* Actions Table */

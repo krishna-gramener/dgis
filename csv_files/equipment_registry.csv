@@ -1,0 +1,211 @@
+facility_id,block,equipment_type,installation_date,functional_status,last_maintenance_date
+CHC_Salempur,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+CHC_Salempur,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+CHC_Salempur,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+CHC_Salempur,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+CHC_Salempur,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+CHC_Salempur,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Salempur_1,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_1,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_1,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Salempur_1,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Salempur_1,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_1,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Salempur_2,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_2,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_2,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Salempur_2,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Salempur_2,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_2,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Salempur_3,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_3,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_3,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Salempur_3,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Salempur_3,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_3,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Salempur_4,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_4,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_4,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Salempur_4,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Salempur_4,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_4,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Salempur_5,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_5,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_5,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Salempur_5,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Salempur_5,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_5,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Salempur_6,Salempur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_6,Salempur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_6,Salempur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Salempur_6,Salempur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Salempur_6,Salempur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Salempur_6,Salempur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+CHC_Barhaj,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+CHC_Barhaj,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+CHC_Barhaj,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+CHC_Barhaj,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+CHC_Barhaj,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+CHC_Barhaj,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_1,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_1,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_1,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_1,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_1,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_1,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_2,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_2,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_2,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_2,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_2,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_2,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_3,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_3,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_3,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_3,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_3,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_3,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_4,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_4,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_4,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_4,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_4,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_4,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_5,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_5,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_5,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_5,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_5,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_5,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_6,Barhaj,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_6,Barhaj,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_6,Barhaj,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_6,Barhaj,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_6,Barhaj,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Barhaj_6,Barhaj,Lab Analyzer,Jan-2024,Functional,Sep-2024
+CHC_Rudrapur,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+CHC_Rudrapur,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+CHC_Rudrapur,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+CHC_Rudrapur,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+CHC_Rudrapur,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+CHC_Rudrapur,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_1,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_1,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_1,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_1,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_1,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_1,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_2,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_2,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_2,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_2,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_2,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_2,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_3,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_3,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_3,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_3,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_3,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_3,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_4,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_4,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_4,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_4,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_4,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_4,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_5,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_5,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_5,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_5,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_5,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_5,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_6,Rudrapur,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_6,Rudrapur,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_6,Rudrapur,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_6,Rudrapur,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_6,Rudrapur,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Rudrapur_6,Rudrapur,Lab Analyzer,Jan-2024,Functional,Sep-2024
+CHC_Bhatpar Rani,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+CHC_Bhatpar Rani,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+CHC_Bhatpar Rani,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+CHC_Bhatpar Rani,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+CHC_Bhatpar Rani,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+CHC_Bhatpar Rani,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_1,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_1,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_1,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_1,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_1,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_1,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_2,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_2,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_2,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_2,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_2,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_2,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_3,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_3,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_3,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_3,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_3,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_3,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_4,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_4,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_4,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_4,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_4,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_4,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_5,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_5,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_5,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_5,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_5,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_5,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_6,Bhatpar Rani,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_6,Bhatpar Rani,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_6,Bhatpar Rani,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_6,Bhatpar Rani,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_6,Bhatpar Rani,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Bhatpar Rani_6,Bhatpar Rani,Lab Analyzer,Jan-2024,Functional,Sep-2024
+CHC_Deoria Sadar,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+CHC_Deoria Sadar,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+CHC_Deoria Sadar,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+CHC_Deoria Sadar,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+CHC_Deoria Sadar,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+CHC_Deoria Sadar,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_1,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_1,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_1,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_1,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_1,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_1,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_2,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_2,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_2,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_2,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_2,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_2,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_3,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_3,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_3,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_3,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_3,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_3,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_4,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_4,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_4,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_4,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_4,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_4,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_5,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_5,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_5,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_5,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_5,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_5,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_6,Deoria Sadar,Ultrasound Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_6,Deoria Sadar,X-Ray Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_6,Deoria Sadar,Autoclave,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_6,Deoria Sadar,Fetal Monitor,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_6,Deoria Sadar,Anesthesia Machine,Jan-2024,Functional,Sep-2024
+PHC_Deoria Sadar_6,Deoria Sadar,Lab Analyzer,Jan-2024,Functional,Sep-2024

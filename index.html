@@ -109,8 +109,8 @@
                             <span class="step-number">3</span>
                             <span class="step-check">✓</span>
                         </div>
-                        <div class="step-label">Sending</div>
-                        <div class="step-tooltip">Transmitting data to LLM for analysis</div>
+                        <div class="step-label">Detecting</div>
+                        <div class="step-tooltip">AI detecting anomalies and patterns in data</div>
                     </div>
                     <div class="progress-line"></div>
                     
@@ -119,8 +119,8 @@
                             <span class="step-number">4</span>
                             <span class="step-check">✓</span>
                         </div>
-                        <div class="step-label">Analyzing</div>
-                        <div class="step-tooltip">AI analyzing patterns and trends</div>
+                        <div class="step-label">Diagnosing</div>
+                        <div class="step-tooltip">AI diagnosing systemic issues and generating insights</div>
                     </div>
                     <div class="progress-line"></div>
                     
@@ -226,40 +226,25 @@
         <div class="container">
             <h2 class="section-title">Available Datasets</h2>
             <div class="datasets-grid">
-                <div class="dataset-card" onclick="viewDataset('disease_surveillance.csv', 'Disease Surveillance')">
-                    <div class="dataset-icon">🦠</div>
-                    <h3>Disease Surveillance</h3>
-                    <p>Track disease patterns and outbreaks across the district</p>
-                </div>
-                <div class="dataset-card" onclick="viewDataset('equipment_usage.csv', 'Equipment Usage')">
-                    <div class="dataset-icon">🏥</div>
-                    <h3>Equipment Usage</h3>
-                    <p>Monitor medical equipment utilization rates</p>
-                </div>
-                <div class="dataset-card" onclick="viewDataset('pmjay_claims.csv', 'PMJAY Claims')">
-                    <div class="dataset-icon">💳</div>
-                    <h3>PMJAY Claims</h3>
-                    <p>Analyze health insurance claim patterns</p>
-                </div>
-                <div class="dataset-card" onclick="viewDataset('maternal_care.csv', 'Maternal Care')">
-                    <div class="dataset-icon">👶</div>
-                    <h3>Maternal Care</h3>
-                    <p>Monitor maternal health services and outcomes</p>
-                </div>
-                <div class="dataset-card" onclick="viewDataset('hims_opd.csv', 'HIMS OPD')">
-                    <div class="dataset-icon">📋</div>
-                    <h3>HIMS OPD</h3>
-                    <p>Track outpatient department statistics</p>
-                </div>
-                <div class="dataset-card" onclick="viewDataset('manav_sampda_staffing.csv', 'Manav Sampada Staffing')">
-                    <div class="dataset-icon">👥</div>
-                    <h3>Manav Sampada Staffing</h3>
-                    <p>Monitor healthcare workforce distribution</p>
-                </div>
-                <div class="dataset-card" onclick="viewDataset('hospital_infrastructure.csv', 'Hospital Infrastructure')">
+                <div class="dataset-card" onclick="viewDataset('facility_master.csv', 'Facility Master')">
                     <div class="dataset-icon">🏗️</div>
-                    <h3>Hospital Infrastructure</h3>
-                    <p>Track facility resources and infrastructure</p>
+                    <h3>Facility Master</h3>
+                    <p>Master list of healthcare facilities containing facility IDs, their block locations, and facility types used as a reference for linking other datasets</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('manav_sampda.csv', 'Manav Sampada')">
+                    <div class="dataset-icon">👥</div>
+                    <h3>Manav Sampada</h3>
+                    <p>Healthcare workforce dataset capturing employee postings, designations, facility assignments, and employment status</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('equipment_registry.csv', 'Equipment Registry')">
+                    <div class="dataset-icon">🏥</div>
+                    <h3>Equipment Registry</h3>
+                    <p>Registry of medical equipment installed at healthcare facilities including equipment type, installation date, functional status, and maintenance records</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('hmis_indicators.csv', 'HMIS Indicators')">
+                    <div class="dataset-icon">📊</div>
+                    <h3>HMIS Indicators</h3>
+                    <p>Monthly HMIS service delivery dataset recording OPD visits, institutional deliveries, C-sections, and major surgeries for each facility</p>
                 </div>
             </div>
         </div>

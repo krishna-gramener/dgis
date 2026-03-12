@@ -95,21 +95,20 @@ Papa.parse(csvText, {
 });
 ```
 
-#### 3. LLM Integration
+#### 3. Two-Phase AI Analysis
 ```javascript
-// Sends data to LLM API for analysis
-const response = await fetch(`${llmConfig.baseUrl}/chat/completions`, {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${llmConfig.token}:dgis`
-    },
-    body: JSON.stringify({
-        model: 'gpt-4.1-mini',
-        messages: [...]
-    })
-});
+// Phase 1: Detect Anomalies
+const anomalies = await detectAnomalies();
+// Returns: patterns, unusual metrics, system irregularities
+
+// Phase 2: Generate Insights
+const results = await generateInsights(anomalies);
+// Returns: insights, actions, emails based on detected anomalies
 ```
+
+The system uses a two-phase approach:
+1. **Anomaly Detection**: AI scans datasets for unusual patterns without interpretation
+2. **Insight Generation**: AI diagnoses systemic issues by connecting anomalies across datasets
 
 #### 4. Insight Type Detection
 ```javascript
@@ -171,8 +170,11 @@ The LLM must return JSON in this format:
 {
   "insights": [
     {
-      "text": "Insight description",
-      "type": "critical"
+      "summary": "Concise 1-line insight (max 80 chars)",
+      "detail": "Detailed explanation with context and numbers",
+      "type": "critical",
+      "sources": ["equipment_usage.csv", "hims_opd.csv"],
+      "derived_metrics": ["opd_per_doctor"]
     }
   ],
   "actions": [

@@ -1,0 +1,211 @@
+employee_id,facility_id,block,designation,posting_start_date,posting_end_date,status
+E8270,CHC_Salempur,Salempur,Medical Officer,Jan-2023,Present,Active
+E1860,CHC_Salempur,Salempur,Gynecologist,Jan-2023,Present,Active
+E6390,CHC_Salempur,Salempur,Anesthetist,Jan-2023,Feb-2024,Transferred
+E6191,CHC_Salempur,Salempur,Radiographer,Jan-2023,Present,Active
+E6734,CHC_Salempur,Salempur,Lab Technician,Jan-2023,Present,Active
+E7265,CHC_Salempur,Salempur,Staff Nurse,Jan-2023,Present,Active
+E1466,PHC_Salempur_1,Salempur,Medical Officer,Jan-2023,Present,Active
+E5426,PHC_Salempur_1,Salempur,Gynecologist,Jan-2023,Present,Active
+E6578,PHC_Salempur_1,Salempur,Anesthetist,Jan-2023,Present,Active
+E9322,PHC_Salempur_1,Salempur,Radiographer,Jan-2023,Present,Active
+E2685,PHC_Salempur_1,Salempur,Lab Technician,Jan-2023,Present,Active
+E1769,PHC_Salempur_1,Salempur,Staff Nurse,Jan-2023,Present,Active
+E7949,PHC_Salempur_2,Salempur,Medical Officer,Jan-2023,Present,Active
+E3433,PHC_Salempur_2,Salempur,Gynecologist,Jan-2023,Present,Active
+E6311,PHC_Salempur_2,Salempur,Anesthetist,Jan-2023,Present,Active
+E6051,PHC_Salempur_2,Salempur,Radiographer,Jan-2023,Present,Active
+E7420,PHC_Salempur_2,Salempur,Lab Technician,Jan-2023,Present,Active
+E2184,PHC_Salempur_2,Salempur,Staff Nurse,Jan-2023,Present,Active
+E5555,PHC_Salempur_3,Salempur,Medical Officer,Jan-2023,Present,Active
+E4385,PHC_Salempur_3,Salempur,Gynecologist,Jan-2023,Present,Active
+E7396,PHC_Salempur_3,Salempur,Anesthetist,Jan-2023,Present,Active
+E9666,PHC_Salempur_3,Salempur,Radiographer,Jan-2023,Present,Active
+E3558,PHC_Salempur_3,Salempur,Lab Technician,Jan-2023,Present,Active
+E8849,PHC_Salempur_3,Salempur,Staff Nurse,Jan-2023,Present,Active
+E3047,PHC_Salempur_4,Salempur,Medical Officer,Jan-2023,Present,Active
+E3747,PHC_Salempur_4,Salempur,Gynecologist,Jan-2023,Present,Active
+E1189,PHC_Salempur_4,Salempur,Anesthetist,Jan-2023,Present,Active
+E3734,PHC_Salempur_4,Salempur,Radiographer,Jan-2023,Present,Active
+E4005,PHC_Salempur_4,Salempur,Lab Technician,Jan-2023,Present,Active
+E5658,PHC_Salempur_4,Salempur,Staff Nurse,Jan-2023,Present,Active
+E2899,PHC_Salempur_5,Salempur,Medical Officer,Jan-2023,Present,Active
+E8734,PHC_Salempur_5,Salempur,Gynecologist,Jan-2023,Present,Active
+E2267,PHC_Salempur_5,Salempur,Anesthetist,Jan-2023,Present,Active
+E2528,PHC_Salempur_5,Salempur,Radiographer,Jan-2023,Present,Active
+E4556,PHC_Salempur_5,Salempur,Lab Technician,Jan-2023,Present,Active
+E4890,PHC_Salempur_5,Salempur,Staff Nurse,Jan-2023,Present,Active
+E9838,PHC_Salempur_6,Salempur,Medical Officer,Jan-2023,Present,Active
+E6393,PHC_Salempur_6,Salempur,Gynecologist,Jan-2023,Present,Active
+E9792,PHC_Salempur_6,Salempur,Anesthetist,Jan-2023,Present,Active
+E9433,PHC_Salempur_6,Salempur,Radiographer,Jan-2023,Present,Active
+E8513,PHC_Salempur_6,Salempur,Lab Technician,Jan-2023,Present,Active
+E3612,PHC_Salempur_6,Salempur,Staff Nurse,Jan-2023,Present,Active
+E8041,CHC_Barhaj,Barhaj,Medical Officer,Jan-2023,Present,Active
+E7235,CHC_Barhaj,Barhaj,Gynecologist,Jan-2023,Present,Active
+E6486,CHC_Barhaj,Barhaj,Anesthetist,Jan-2023,Present,Active
+E8099,CHC_Barhaj,Barhaj,Radiographer,Jan-2023,Present,Active
+E1775,CHC_Barhaj,Barhaj,Lab Technician,Jan-2023,Present,Active
+E9226,CHC_Barhaj,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E4152,PHC_Barhaj_1,Barhaj,Medical Officer,Jan-2023,Present,Active
+E2585,PHC_Barhaj_1,Barhaj,Gynecologist,Jan-2023,Present,Active
+E4943,PHC_Barhaj_1,Barhaj,Anesthetist,Jan-2023,Present,Active
+E8555,PHC_Barhaj_1,Barhaj,Radiographer,Jan-2023,Present,Active
+E4073,PHC_Barhaj_1,Barhaj,Lab Technician,Jan-2023,Present,Active
+E2021,PHC_Barhaj_1,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E4843,PHC_Barhaj_2,Barhaj,Medical Officer,Jan-2023,Present,Active
+E8989,PHC_Barhaj_2,Barhaj,Gynecologist,Jan-2023,Present,Active
+E7873,PHC_Barhaj_2,Barhaj,Anesthetist,Jan-2023,Present,Active
+E6675,PHC_Barhaj_2,Barhaj,Radiographer,Jan-2023,Present,Active
+E1161,PHC_Barhaj_2,Barhaj,Lab Technician,Jan-2023,Present,Active
+E5297,PHC_Barhaj_2,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E1995,PHC_Barhaj_3,Barhaj,Medical Officer,Jan-2023,Present,Active
+E8629,PHC_Barhaj_3,Barhaj,Gynecologist,Jan-2023,Present,Active
+E2016,PHC_Barhaj_3,Barhaj,Anesthetist,Jan-2023,Present,Active
+E8869,PHC_Barhaj_3,Barhaj,Radiographer,Jan-2023,Present,Active
+E7439,PHC_Barhaj_3,Barhaj,Lab Technician,Jan-2023,Present,Active
+E8892,PHC_Barhaj_3,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E7863,PHC_Barhaj_4,Barhaj,Medical Officer,Jan-2023,Present,Active
+E8916,PHC_Barhaj_4,Barhaj,Gynecologist,Jan-2023,Present,Active
+E9529,PHC_Barhaj_4,Barhaj,Anesthetist,Jan-2023,Present,Active
+E1878,PHC_Barhaj_4,Barhaj,Radiographer,Jan-2023,Present,Active
+E5887,PHC_Barhaj_4,Barhaj,Lab Technician,Jan-2023,Present,Active
+E5859,PHC_Barhaj_4,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E7331,PHC_Barhaj_5,Barhaj,Medical Officer,Jan-2023,Present,Active
+E9571,PHC_Barhaj_5,Barhaj,Gynecologist,Jan-2023,Present,Active
+E9684,PHC_Barhaj_5,Barhaj,Anesthetist,Jan-2023,Present,Active
+E8208,PHC_Barhaj_5,Barhaj,Radiographer,Jan-2023,Present,Active
+E6276,PHC_Barhaj_5,Barhaj,Lab Technician,Jan-2023,Present,Active
+E3062,PHC_Barhaj_5,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E1064,PHC_Barhaj_6,Barhaj,Medical Officer,Jan-2023,Present,Active
+E9006,PHC_Barhaj_6,Barhaj,Gynecologist,Jan-2023,Present,Active
+E3568,PHC_Barhaj_6,Barhaj,Anesthetist,Jan-2023,Present,Active
+E6463,PHC_Barhaj_6,Barhaj,Radiographer,Jan-2023,Present,Active
+E3027,PHC_Barhaj_6,Barhaj,Lab Technician,Jan-2023,Present,Active
+E3695,PHC_Barhaj_6,Barhaj,Staff Nurse,Jan-2023,Present,Active
+E6258,CHC_Rudrapur,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E6618,CHC_Rudrapur,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E7736,CHC_Rudrapur,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E1391,CHC_Rudrapur,Rudrapur,Radiographer,Jan-2023,Present,Active
+E6892,CHC_Rudrapur,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E4561,CHC_Rudrapur,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E7184,PHC_Rudrapur_1,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E4099,PHC_Rudrapur_1,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E7278,PHC_Rudrapur_1,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E9392,PHC_Rudrapur_1,Rudrapur,Radiographer,Jan-2023,Present,Active
+E4104,PHC_Rudrapur_1,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E8215,PHC_Rudrapur_1,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E3454,PHC_Rudrapur_2,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E9996,PHC_Rudrapur_2,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E3731,PHC_Rudrapur_2,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E9154,PHC_Rudrapur_2,Rudrapur,Radiographer,Jan-2023,Present,Active
+E6056,PHC_Rudrapur_2,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E9110,PHC_Rudrapur_2,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E4840,PHC_Rudrapur_3,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E2028,PHC_Rudrapur_3,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E8385,PHC_Rudrapur_3,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E1502,PHC_Rudrapur_3,Rudrapur,Radiographer,Jan-2023,Present,Active
+E7910,PHC_Rudrapur_3,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E7938,PHC_Rudrapur_3,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E5488,PHC_Rudrapur_4,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E1206,PHC_Rudrapur_4,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E6134,PHC_Rudrapur_4,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E6977,PHC_Rudrapur_4,Rudrapur,Radiographer,Jan-2023,Present,Active
+E8721,PHC_Rudrapur_4,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E8035,PHC_Rudrapur_4,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E2484,PHC_Rudrapur_5,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E8858,PHC_Rudrapur_5,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E1863,PHC_Rudrapur_5,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E3790,PHC_Rudrapur_5,Rudrapur,Radiographer,Jan-2023,Present,Active
+E8408,PHC_Rudrapur_5,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E9755,PHC_Rudrapur_5,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E6116,PHC_Rudrapur_6,Rudrapur,Medical Officer,Jan-2023,Present,Active
+E7019,PHC_Rudrapur_6,Rudrapur,Gynecologist,Jan-2023,Present,Active
+E2757,PHC_Rudrapur_6,Rudrapur,Anesthetist,Jan-2023,Present,Active
+E8574,PHC_Rudrapur_6,Rudrapur,Radiographer,Jan-2023,Present,Active
+E7374,PHC_Rudrapur_6,Rudrapur,Lab Technician,Jan-2023,Present,Active
+E7892,PHC_Rudrapur_6,Rudrapur,Staff Nurse,Jan-2023,Present,Active
+E2678,CHC_Bhatpar Rani,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E4242,CHC_Bhatpar Rani,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E5636,CHC_Bhatpar Rani,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E2059,CHC_Bhatpar Rani,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E7668,CHC_Bhatpar Rani,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E4157,CHC_Bhatpar Rani,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E6915,PHC_Bhatpar Rani_1,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E3693,PHC_Bhatpar Rani_1,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E4627,PHC_Bhatpar Rani_1,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E6450,PHC_Bhatpar Rani_1,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E2663,PHC_Bhatpar Rani_1,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E6592,PHC_Bhatpar Rani_1,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E8392,PHC_Bhatpar Rani_2,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E2306,PHC_Bhatpar Rani_2,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E7776,PHC_Bhatpar Rani_2,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E6864,PHC_Bhatpar Rani_2,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E8526,PHC_Bhatpar Rani_2,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E9901,PHC_Bhatpar Rani_2,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E6575,PHC_Bhatpar Rani_3,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E6530,PHC_Bhatpar Rani_3,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E5413,PHC_Bhatpar Rani_3,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E4748,PHC_Bhatpar Rani_3,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E1663,PHC_Bhatpar Rani_3,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E2998,PHC_Bhatpar Rani_3,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E8994,PHC_Bhatpar Rani_4,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E2495,PHC_Bhatpar Rani_4,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E4304,PHC_Bhatpar Rani_4,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E4763,PHC_Bhatpar Rani_4,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E6232,PHC_Bhatpar Rani_4,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E2853,PHC_Bhatpar Rani_4,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E7585,PHC_Bhatpar Rani_5,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E2291,PHC_Bhatpar Rani_5,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E4581,PHC_Bhatpar Rani_5,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E8554,PHC_Bhatpar Rani_5,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E8280,PHC_Bhatpar Rani_5,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E2636,PHC_Bhatpar Rani_5,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E4696,PHC_Bhatpar Rani_6,Bhatpar Rani,Medical Officer,Jan-2023,Present,Active
+E1698,PHC_Bhatpar Rani_6,Bhatpar Rani,Gynecologist,Jan-2023,Present,Active
+E5737,PHC_Bhatpar Rani_6,Bhatpar Rani,Anesthetist,Jan-2023,Present,Active
+E1854,PHC_Bhatpar Rani_6,Bhatpar Rani,Radiographer,Jan-2023,Present,Active
+E9164,PHC_Bhatpar Rani_6,Bhatpar Rani,Lab Technician,Jan-2023,Present,Active
+E6855,PHC_Bhatpar Rani_6,Bhatpar Rani,Staff Nurse,Jan-2023,Present,Active
+E8392,CHC_Deoria Sadar,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E7528,CHC_Deoria Sadar,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E6249,CHC_Deoria Sadar,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E6172,CHC_Deoria Sadar,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E2707,CHC_Deoria Sadar,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E6791,CHC_Deoria Sadar,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active
+E6535,PHC_Deoria Sadar_1,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E5931,PHC_Deoria Sadar_1,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E4510,PHC_Deoria Sadar_1,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E1202,PHC_Deoria Sadar_1,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E5218,PHC_Deoria Sadar_1,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E9958,PHC_Deoria Sadar_1,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active
+E5389,PHC_Deoria Sadar_2,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E3327,PHC_Deoria Sadar_2,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E9004,PHC_Deoria Sadar_2,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E3931,PHC_Deoria Sadar_2,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E8777,PHC_Deoria Sadar_2,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E1197,PHC_Deoria Sadar_2,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active
+E8125,PHC_Deoria Sadar_3,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E2930,PHC_Deoria Sadar_3,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E7287,PHC_Deoria Sadar_3,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E9800,PHC_Deoria Sadar_3,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E5282,PHC_Deoria Sadar_3,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E3511,PHC_Deoria Sadar_3,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active
+E1659,PHC_Deoria Sadar_4,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E3811,PHC_Deoria Sadar_4,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E8098,PHC_Deoria Sadar_4,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E7546,PHC_Deoria Sadar_4,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E2986,PHC_Deoria Sadar_4,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E9338,PHC_Deoria Sadar_4,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active
+E3911,PHC_Deoria Sadar_5,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E2734,PHC_Deoria Sadar_5,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E2843,PHC_Deoria Sadar_5,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E9680,PHC_Deoria Sadar_5,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E3976,PHC_Deoria Sadar_5,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E2959,PHC_Deoria Sadar_5,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active
+E6759,PHC_Deoria Sadar_6,Deoria Sadar,Medical Officer,Jan-2023,Present,Active
+E7694,PHC_Deoria Sadar_6,Deoria Sadar,Gynecologist,Jan-2023,Present,Active
+E3385,PHC_Deoria Sadar_6,Deoria Sadar,Anesthetist,Jan-2023,Present,Active
+E5736,PHC_Deoria Sadar_6,Deoria Sadar,Radiographer,Jan-2023,Present,Active
+E2802,PHC_Deoria Sadar_6,Deoria Sadar,Lab Technician,Jan-2023,Present,Active
+E9155,PHC_Deoria Sadar_6,Deoria Sadar,Staff Nurse,Jan-2023,Present,Active

@@ -9,13 +9,10 @@ let analysisResults = null;
 
 // Dataset files
 const DATASETS = [
-    'disease_surveillance.csv',
-    'equipment_usage.csv',
-    'pmjay_claims.csv',
-    'maternal_care.csv',
-    'hims_opd.csv',
-    'manav_sampda_staffing.csv',
-    'hospital_infrastructure.csv'
+    'facility_master.csv',
+    'manav_sampda.csv',
+    'equipment_registry.csv',
+    'hmis_indicators.csv'
 ];
 
 // Initialize app
@@ -167,15 +164,15 @@ async function startAnalysis() {
         await new Promise(resolve => setTimeout(resolve, 1000));
         await updateProgress(2, 'completed');
 
-        // Step 3: Send to AI
+        // Step 3: Detect anomalies (AI Phase 1)
         await updateProgress(3, 'active');
-        const results = await sendToLLM();
+        const anomalies = await detectAnomalies();
         await updateProgress(3, 'completed');
 
-        // Step 4: Generate insights
+        // Step 4: Generate insights (AI Phase 2)
         await updateProgress(4, 'active');
+        const results = await generateInsights(anomalies);
         analysisResults = results;
-        await new Promise(resolve => setTimeout(resolve, 1000));
         await updateProgress(4, 'completed');
 
         // Step 5: Prepare results
@@ -247,55 +244,179 @@ async function loadCSV(filename) {
     }
 }
 
-// LLM Communication
-async function sendToLLM() {
-    const systemPrompt = `You are a district governance intelligence AI analyzing healthcare datasets.
-Generate governance insights, department actions, and official emails.
-Be specific, actionable, and professional. Make sure the mails are well detailed and professional`;
+// LLM Communication - Phase 1: Detect Anomalies
+async function detectAnomalies() {
+    const systemPrompt = `You are analyzing district health system datasets from Uttar Pradesh.
 
-    const userPrompt = `Analyze these district healthcare datasets and produce:
+Datasets available:
+- Facility Master (facility IDs, block locations, facility types)
+- Manav Sampda (staff postings, transfers, vacancies, designations)
+- HMIS Indicators (OPD visits, deliveries, surgeries, diagnostics)
+- Equipment Registry (machines installed, functional status, maintenance)
 
-1. Key governance insights (10-12 insights)
-2. Department-wise action items (10-15 items)
-3. Official email drafts for departments
+Your task is to detect unusual patterns or anomalies in the system.
+
+Look for patterns such as:
+- Sudden drops or spikes in service indicators
+- Equipment that exists but shows low utilization
+- Facilities with unusually high patient load
+- Service indicators that changed sharply after staff transfers
+- Infrastructure upgrades that did not improve services
+- Facilities with staff but no services recorded
+- Equipment marked functional but not being used
+- Abnormal ratios (e.g., deliveries per staff, OPD per facility type)
+
+Important rules:
+• Do NOT interpret yet
+• Only list anomalies and interesting patterns detected in the data
+• Each anomaly must reference the dataset(s) where it was observed
+• Be specific with facility names, numbers, and metrics
+
+Return up to 12 anomalies.`;
+
+    const userPrompt = `Detect anomalies in the following district healthcare datasets.
 
 Datasets provided:
 ${Object.keys(csvData).map(key => `- ${key}: ${csvData[key].length} records`).join('\n')}
 
-Sample data from each dataset:
+Complete datasets:
 ${Object.entries(csvData).map(([key, data]) => {
-    const sample = data.slice(0, 5);
     return `\n${key}:\n${JSON.stringify(data, null, 2)}`;
 }).join('\n')}
 
-Return ONLY valid JSON in this exact format:
+Return ONLY valid JSON in the following format:
+
+{
+  "anomalies": [
+    {
+      "pattern": "Brief description of the anomaly observed",
+      "sources": ["dataset1.csv", "dataset2.csv"],
+      "specifics": "Specific numbers, facility names, or metrics"
+    }
+  ]
+}
+
+Example:
+{
+  "anomalies": [
+    {
+      "pattern": "Sharp drop in OPD visits at PHC Salempur in March 2024",
+      "sources": ["hmis_indicators.csv"],
+      "specifics": "OPD visits dropped from 450 to 120 between Feb and March 2024"
+    }
+  ]
+}`;
+
+    try {
+        const response = await fetch(`${llmConfig.baseUrl}/chat/completions`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${llmConfig.token}:dgis`
+            },
+            body: JSON.stringify({
+                model: 'gpt-4.1-mini',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userPrompt }
+                ]
+            })
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.error?.message || 'API request failed');
+        }
+
+        const data = await response.json();
+        const content = data.choices[0].message.content;
+        
+        // Extract JSON from response (handle markdown code blocks)
+        let jsonContent = content;
+        if (content.includes('```json')) {
+            jsonContent = content.split('```json')[1].split('```')[0].trim();
+        } else if (content.includes('```')) {
+            jsonContent = content.split('```')[1].split('```')[0].trim();
+        }
+        
+        const anomalies = JSON.parse(jsonContent);
+        console.log("Anomalies detected:", anomalies);
+        return anomalies.anomalies || [];
+
+    } catch (error) {
+        console.error('Anomaly detection error:', error);
+        throw error;
+    }
+}
+
+// LLM Communication - Phase 2: Generate Insights from Anomalies
+async function generateInsights(anomalies) {
+    const systemPrompt = `You are advising the Chief Medical Officer of a district in Uttar Pradesh.
+
+Using the anomalies detected in the district health system, identify the underlying operational problems.
+
+Your task is to diagnose systemic failures by connecting information across datasets:
+- Facility Master (facility infrastructure)
+- Manav Sampda (staff)
+- HMIS Indicators (services)
+- Equipment Registry (infrastructure)
+
+Guidelines:
+• Build causal chains between datasets
+• Focus on operational failures where infrastructure or staffing is not translating into services
+• Ignore simple descriptive observations
+• Prioritize insights that explain WHY the system is not functioning as expected
+• Each insight must be actionable for district administration
+
+Report 10-12 district-level insights categorized by severity.
+
+For each insight provide:
+- Summary: Short, punchy headline with key metric (max 80 characters)
+- Detail: Evidence from datasets + Explanation of underlying mechanism + Administrative implication
+- Type: critical/warning/info/positive
+- Sources: Datasets used`;
+
+    const userPrompt = `Based on the following anomalies detected in the district health system, generate governance insights.
+
+Anomalies detected:
+${JSON.stringify(anomalies, null, 2)}
+
+Also generate:
+1. Department-wise action items (10-15 items) based on the insights
+2. Professional email drafts (3-5 emails) to department heads requesting corrective action
+
+Return ONLY valid JSON in the following format:
+
 {
   "insights": [
     {
-      "text": "Insight description",
-      "type": "critical|warning|info|positive"
+      "summary": "Concise headline with key metric (max 80 characters)",
+      "detail": "Evidence + Explanation + Administrative implication",
+      "type": "critical|warning|info|positive",
+      "sources": ["dataset1.csv", "dataset2.csv"]
     }
   ],
   "actions": [
     {
       "issue": "Issue description",
-      "department": "Department name"
+      "department": "Responsible department",
+      "related_insight": "Short summary of related insight"
     }
   ],
   "emails": [
     {
       "department": "Department name",
       "subject": "Email subject",
-      "body": "Email body text"
+      "body": "Professional government email requesting action"
     }
   ]
 }
 
-IMPORTANT: For each insight, specify the type:
-- "critical": Urgent issues requiring immediate action (shortages, spikes, emergencies)
-- "warning": Concerns that need attention (rising trends, vacancies, pressure)
-- "info": General observations and statistics
-- "positive": Good performance and achievements`;
+Severity classification:
+- critical: Immediate governance risk requiring urgent action
+- warning: Emerging concerns needing attention
+- info: General observations for awareness
+- positive: Good performance to acknowledge`;
 
     try {
         const response = await fetch(`${llmConfig.baseUrl}/chat/completions`, {
@@ -330,10 +451,11 @@ IMPORTANT: For each insight, specify the type:
         }
         
         const results = JSON.parse(jsonContent);
+        console.log("Insights generated:", results);
         return results;
 
     } catch (error) {
-        console.error('LLM API error:', error);
+        console.error('Insight generation error:', error);
         throw error;
     }
 }
@@ -349,18 +471,59 @@ function displayInsights(insights) {
     const container = document.getElementById('insightsContainer');
     container.innerHTML = '';
 
-    insights.forEach(insight => {
-        // Insight should be an object with text and type from LLM
-        const text = insight.text || insight.insight || insight;
+    insights.forEach((insight, index) => {
+        // Insight should be an object with summary, detail, type, and sources from LLM
+        const summary = insight.summary || insight.text || insight.insight || insight;
+        const detail = insight.detail || summary;
         const type = insight.type || 'info';
+        const sources = insight.sources || [];
         
         const card = document.createElement('div');
         card.className = `insight-card ${type}`;
+        card.setAttribute('data-expanded', 'false');
+        
+        // Build sources HTML
+        let sourcesHTML = '';
+        if (sources && sources.length > 0) {
+            sourcesHTML = `
+                <div class="insight-sources">
+                    <span class="sources-label">Sources:</span>
+                    ${sources.map(source => `<span class="source-tag">${source.replace('.csv', '')}</span>`).join('')}
+                </div>
+            `;
+        }
         
         card.innerHTML = `
-            <div class="insight-type">${type}</div>
-            <div class="insight-text">${text}</div>
+            <div class="insight-header">
+                <div class="insight-type">${type}</div>
+                <div class="insight-expand-icon">▼</div>
+            </div>
+            <div class="insight-summary">${summary}</div>
+            <div class="insight-detail hidden">${detail}</div>
+            ${sourcesHTML}
         `;
+        
+        // Add click handler to toggle expansion
+        card.addEventListener('click', () => {
+            const isExpanded = card.getAttribute('data-expanded') === 'true';
+            const summaryEl = card.querySelector('.insight-summary');
+            const detailEl = card.querySelector('.insight-detail');
+            const expandIcon = card.querySelector('.insight-expand-icon');
+            
+            if (isExpanded) {
+                // Collapse
+                card.setAttribute('data-expanded', 'false');
+                summaryEl.classList.remove('hidden');
+                detailEl.classList.add('hidden');
+                expandIcon.textContent = '▼';
+            } else {
+                // Expand
+                card.setAttribute('data-expanded', 'true');
+                summaryEl.classList.add('hidden');
+                detailEl.classList.remove('hidden');
+                expandIcon.textContent = '▲';
+            }
+        });
         
         container.appendChild(card);
     });
