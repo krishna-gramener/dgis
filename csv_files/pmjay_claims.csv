@@ -1,0 +1,201 @@
+hospital,procedure,claim_value
+District Hospital,Orthopedic,27503
+Private Hospital C,Maternity,29433
+District Hospital,Orthopedic,43111
+Private Hospital C,Maternity,29131
+Private Hospital A,Dialysis,42321
+Private Hospital A,Orthopedic,36212
+Private Hospital A,General Surgery,44196
+District Hospital,General Surgery,32717
+Private Hospital A,Maternity,20649
+District Hospital,Dialysis,42558
+Private Hospital A,Maternity,25609
+District Hospital,Dialysis,34632
+Private Hospital C,General Surgery,29650
+Private Hospital C,General Surgery,22625
+Private Hospital B,Maternity,25769
+Private Hospital B,Orthopedic,41043
+Private Hospital A,Cardiac,25911
+Private Hospital A,Orthopedic,29628
+Private Hospital A,Maternity,25925
+Private Hospital C,Cardiac,37572
+District Hospital,Cardiac,34715
+Private Hospital A,Cardiac,22839
+Private Hospital B,General Surgery,25078
+Private Hospital B,Maternity,29483
+Private Hospital C,Orthopedic,33662
+Private Hospital C,General Surgery,33130
+Private Hospital B,Orthopedic,23781
+Private Hospital A,Orthopedic,25665
+Private Hospital C,Maternity,40226
+Private Hospital C,Dialysis,37682
+Private Hospital A,Cardiac,24963
+Private Hospital B,Cardiac,43780
+Private Hospital B,Maternity,29293
+Private Hospital A,Cardiac,37685
+Private Hospital C,Dialysis,43566
+Private Hospital A,General Surgery,39556
+Private Hospital A,General Surgery,31943
+Private Hospital C,General Surgery,25663
+Private Hospital A,Cardiac,29024
+Private Hospital A,Cardiac,39244
+Private Hospital C,Maternity,33298
+Private Hospital A,Cardiac,21264
+Private Hospital A,General Surgery,34623
+Private Hospital A,Maternity,30437
+District Hospital,Maternity,39880
+Private Hospital A,Cardiac,32421
+Private Hospital B,General Surgery,42581
+Private Hospital A,Dialysis,32154
+Private Hospital A,Orthopedic,33315
+Private Hospital B,Maternity,42344
+District Hospital,Maternity,23733
+District Hospital,Orthopedic,31500
+Private Hospital C,Cardiac,32962
+Private Hospital A,Maternity,30218
+Private Hospital C,Maternity,20815
+District Hospital,Cardiac,21332
+Private Hospital C,Dialysis,40786
+Private Hospital A,Cardiac,41957
+Private Hospital C,Orthopedic,22969
+Private Hospital C,Dialysis,30059
+District Hospital,Maternity,28505
+Private Hospital C,Orthopedic,20251
+Private Hospital C,Dialysis,29585
+Private Hospital C,Dialysis,38613
+Private Hospital A,Orthopedic,41694
+District Hospital,Dialysis,37926
+Private Hospital A,Dialysis,21495
+Private Hospital B,Maternity,30162
+Private Hospital B,Dialysis,32183
+District Hospital,Cardiac,19713
+Private Hospital A,Cardiac,39929
+Private Hospital C,General Surgery,27658
+Private Hospital A,Maternity,41250
+Private Hospital A,Dialysis,27740
+Private Hospital B,Cardiac,18174
+Private Hospital C,Orthopedic,27487
+Private Hospital A,Maternity,27619
+District Hospital,Maternity,37947
+Private Hospital A,Cardiac,42096
+Private Hospital B,Orthopedic,41591
+District Hospital,General Surgery,18753
+Private Hospital C,Dialysis,39176
+Private Hospital A,Orthopedic,42818
+Private Hospital B,Dialysis,35623
+Private Hospital C,Maternity,19950
+Private Hospital B,Maternity,22775
+Private Hospital B,Orthopedic,44976
+Private Hospital A,General Surgery,35703
+Private Hospital B,Cardiac,43498
+Private Hospital B,Dialysis,21379
+District Hospital,Cardiac,21500
+Private Hospital B,Orthopedic,26752
+Private Hospital A,Dialysis,44127
+Private Hospital A,Dialysis,40100
+Private Hospital A,Dialysis,28783
+Private Hospital A,Dialysis,21429
+Private Hospital C,Orthopedic,30104
+Private Hospital A,Cardiac,43367
+Private Hospital C,Cardiac,39819
+Private Hospital C,General Surgery,20298
+Private Hospital A,Cardiac,37259
+Private Hospital A,Orthopedic,22294
+Private Hospital C,Dialysis,28829
+District Hospital,Maternity,44500
+Private Hospital A,Maternity,21729
+Private Hospital A,Orthopedic,44079
+District Hospital,Cardiac,23265
+Private Hospital A,Orthopedic,28275
+Private Hospital A,Dialysis,30985
+Private Hospital A,Cardiac,18137
+District Hospital,Cardiac,22751
+Private Hospital C,Orthopedic,24777
+Private Hospital A,General Surgery,23600
+Private Hospital C,General Surgery,19750
+Private Hospital A,General Surgery,36433
+Private Hospital B,General Surgery,22234
+Private Hospital B,Dialysis,21078
+Private Hospital B,Dialysis,38378
+Private Hospital B,Orthopedic,33533
+Private Hospital B,Cardiac,37384
+Private Hospital A,Dialysis,35258
+District Hospital,Dialysis,41523
+Private Hospital C,Dialysis,37530
+Private Hospital A,Cardiac,26667
+Private Hospital B,Cardiac,19278
+Private Hospital C,Dialysis,27672
+Private Hospital C,Maternity,30724
+District Hospital,Orthopedic,44572
+Private Hospital A,General Surgery,19356
+Private Hospital A,Dialysis,27676
+Private Hospital A,Cardiac,35093
+Private Hospital A,Maternity,32874
+District Hospital,General Surgery,41637
+Private Hospital C,Dialysis,26895
+Private Hospital C,Dialysis,26838
+Private Hospital A,Dialysis,22685
+Private Hospital B,Maternity,28297
+District Hospital,General Surgery,34595
+Private Hospital C,Orthopedic,19532
+Private Hospital C,Cardiac,38378
+Private Hospital A,Dialysis,36908
+Private Hospital C,Dialysis,34491
+District Hospital,Dialysis,40772
+Private Hospital A,General Surgery,38871
+Private Hospital B,Orthopedic,44575
+Private Hospital A,Dialysis,22694
+Private Hospital A,Maternity,37909
+Private Hospital A,Maternity,26463
+District Hospital,Orthopedic,28901
+District Hospital,Maternity,29053
+Private Hospital A,Maternity,19300
+District Hospital,Orthopedic,30335
+Private Hospital A,Cardiac,33118
+Private Hospital C,Maternity,34690
+District Hospital,Cardiac,41172
+District Hospital,Cardiac,43642
+Private Hospital A,General Surgery,28660
+Private Hospital A,Orthopedic,19800
+Private Hospital B,Orthopedic,24315
+Private Hospital A,Cardiac,28720
+Private Hospital A,General Surgery,20279
+Private Hospital B,Maternity,36517
+Private Hospital A,Maternity,30667
+Private Hospital C,Orthopedic,21518
+Private Hospital A,General Surgery,37033
+Private Hospital B,Maternity,21822
+Private Hospital A,Orthopedic,42169
+Private Hospital C,Orthopedic,33838
+District Hospital,General Surgery,38802
+Private Hospital B,General Surgery,35251
+District Hospital,Cardiac,40607
+Private Hospital B,Orthopedic,29172
+Private Hospital A,General Surgery,27929
+Private Hospital C,Dialysis,36060
+Private Hospital A,General Surgery,28706
+Private Hospital B,Cardiac,19907
+Private Hospital A,Maternity,40218
+District Hospital,Dialysis,34327
+Private Hospital A,Maternity,22187
+Private Hospital B,Dialysis,28201
+Private Hospital B,Dialysis,19480
+Private Hospital A,Maternity,20324
+Private Hospital C,Cardiac,28585
+Private Hospital B,Dialysis,41688
+Private Hospital C,Cardiac,44094
+Private Hospital A,General Surgery,31616
+Private Hospital A,Dialysis,32860
+Private Hospital A,Cardiac,40411
+Private Hospital B,General Surgery,44209
+Private Hospital B,Dialysis,29398
+Private Hospital A,General Surgery,28634
+District Hospital,Dialysis,33229
+Private Hospital A,Dialysis,28288
+Private Hospital C,General Surgery,26800
+Private Hospital A,Dialysis,39628
+District Hospital,Dialysis,44654
+Private Hospital C,Dialysis,25227
+Private Hospital A,General Surgery,24762
+District Hospital,Maternity,20899
+Private Hospital A,Orthopedic,34941

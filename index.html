@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>District Governance Intelligence System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <h2>🔧 API Configuration</h2>
+            <p>Configure your LLM API credentials to get started</p>
+            <form id="settingsForm">
+                <div class="form-group">
+                    <label for="baseUrl">Base URL</label>
+                    <input type="text" id="baseUrl" placeholder="https://api.openai.com/v1" required>
+                </div>
+                <div class="form-group">
+                    <label for="apiToken">API Token</label>
+                    <input type="password" id="apiToken" placeholder="sk-..." required>
+                </div>
+                <button type="submit" class="btn-primary">Save Configuration</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dataset Modal -->
+    <div id="datasetModal" class="modal">
+        <div class="modal-content dataset-modal-content">
+            <div class="modal-header">
+                <h2 id="datasetModalTitle">Dataset Preview</h2>
+                <button class="modal-close" onclick="closeDatasetModal()">✕</button>
+            </div>
+            <div id="datasetModalBody" class="dataset-modal-body">
+                <p>Loading dataset...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="logo-icon">🏛️</span>
+                <span class="logo-text">DGIS</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#datasets" class="nav-link">Datasets</a>
+                <a href="#settings" class="nav-link">Settings</a>
+                <button id="themeToggle" class="theme-toggle">🌞</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">District Governance Intelligence System</h1>
+                    <p class="hero-description">AI-powered governance intelligence platform that analyzes district health datasets and generates actionable insights.</p>
+                    <button id="startExploring" class="btn-primary btn-large">
+                        <span>Start Exploring</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">📊 Data Analysis</div>
+                    <div class="floating-card card-2">🤖 AI Insights</div>
+                    <div class="floating-card card-3">📧 Action Items</div>
+                    <div class="floating-card card-4">🏥 Healthcare</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Section -->
+    <section id="progress" class="section progress-section hidden">
+        <div class="container">
+            <h2 class="section-title">Processing Data</h2>
+            <div class="progress-bar-container">
+                <div class="progress-steps-horizontal">
+                    <div class="progress-step-h" data-step="1">
+                        <div class="step-circle">
+                            <span class="step-number">1</span>
+                            <span class="step-check">✓</span>
+                        </div>
+                        <div class="step-label">Loading</div>
+                        <div class="step-tooltip">Reading CSV files from local storage</div>
+                    </div>
+                    <div class="progress-line"></div>
+                    
+                    <div class="progress-step-h" data-step="2">
+                        <div class="step-circle">
+                            <span class="step-number">2</span>
+                            <span class="step-check">✓</span>
+                        </div>
+                        <div class="step-label">Processing</div>
+                        <div class="step-tooltip">Parsing and structuring healthcare data</div>
+                    </div>
+                    <div class="progress-line"></div>
+                    
+                    <div class="progress-step-h" data-step="3">
+                        <div class="step-circle">
+                            <span class="step-number">3</span>
+                            <span class="step-check">✓</span>
+                        </div>
+                        <div class="step-label">Sending</div>
+                        <div class="step-tooltip">Transmitting data to LLM for analysis</div>
+                    </div>
+                    <div class="progress-line"></div>
+                    
+                    <div class="progress-step-h" data-step="4">
+                        <div class="step-circle">
+                            <span class="step-number">4</span>
+                            <span class="step-check">✓</span>
+                        </div>
+                        <div class="step-label">Analyzing</div>
+                        <div class="step-tooltip">AI analyzing patterns and trends</div>
+                    </div>
+                    <div class="progress-line"></div>
+                    
+                    <div class="progress-step-h" data-step="5">
+                        <div class="step-circle">
+                            <span class="step-number">5</span>
+                            <span class="step-check">✓</span>
+                        </div>
+                        <div class="step-label">Finalizing</div>
+                        <div class="step-tooltip">Formatting insights and action items</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="section results-section hidden">
+        <div class="container">
+            <h2 class="section-title">Governance Intelligence</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="insights">📊 Insights</button>
+                <button class="tab-btn" data-tab="actions">📋 Action Plan</button>
+                <button class="tab-btn" data-tab="emails">📧 Email Drafts</button>
+            </div>
+            
+            <div class="tab-content">
+                <!-- Insights Tab -->
+                <div id="insights" class="tab-pane active">
+                    <div class="insights-legend">
+                        <h3>Legend:</h3>
+                        <div class="legend-items">
+                            <div class="legend-item">
+                                <span class="legend-dot critical"></span>
+                                <span>Critical - Requires immediate action</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-dot warning"></span>
+                                <span>Warning - Needs attention</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-dot info"></span>
+                                <span>Info - General observation</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-dot positive"></span>
+                                <span>Positive - Good performance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="insightsContainer" class="insights-grid"></div>
+                </div>
+
+                <!-- Actions Tab -->
+                <div id="actions" class="tab-pane">
+                    <div class="table-container">
+                        <table id="actionsTable">
+                            <thead>
+                                <tr>
+                                    <th>Issue</th>
+                                    <th>Assigned Department</th>
+                                </tr>
+                            </thead>
+                            <tbody id="actionsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Emails Tab -->
+                <div id="emails" class="tab-pane">
+                    <div id="emailsContainer" class="emails-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About DGIS</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>Purpose</h3>
+                    <p>Transform district healthcare data into actionable governance intelligence using advanced AI analysis.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">📈</div>
+                    <h3>Data-Driven</h3>
+                    <p>Analyze multiple healthcare datasets including disease surveillance, equipment usage, and patient care metrics.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">⚡</div>
+                    <h3>Real-Time</h3>
+                    <p>Generate instant insights and department-specific action items for rapid decision making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Datasets Section -->
+    <section id="datasets" class="section">
+        <div class="container">
+            <h2 class="section-title">Available Datasets</h2>
+            <div class="datasets-grid">
+                <div class="dataset-card" onclick="viewDataset('disease_surveillance.csv', 'Disease Surveillance')">
+                    <div class="dataset-icon">🦠</div>
+                    <h3>Disease Surveillance</h3>
+                    <p>Track disease patterns and outbreaks across the district</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('equipment_usage.csv', 'Equipment Usage')">
+                    <div class="dataset-icon">🏥</div>
+                    <h3>Equipment Usage</h3>
+                    <p>Monitor medical equipment utilization rates</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('pmjay_claims.csv', 'PMJAY Claims')">
+                    <div class="dataset-icon">💳</div>
+                    <h3>PMJAY Claims</h3>
+                    <p>Analyze health insurance claim patterns</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('maternal_care.csv', 'Maternal Care')">
+                    <div class="dataset-icon">👶</div>
+                    <h3>Maternal Care</h3>
+                    <p>Monitor maternal health services and outcomes</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('hims_opd.csv', 'HIMS OPD')">
+                    <div class="dataset-icon">📋</div>
+                    <h3>HIMS OPD</h3>
+                    <p>Track outpatient department statistics</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('manav_sampda_staffing.csv', 'Manav Sampada Staffing')">
+                    <div class="dataset-icon">👥</div>
+                    <h3>Manav Sampada Staffing</h3>
+                    <p>Monitor healthcare workforce distribution</p>
+                </div>
+                <div class="dataset-card" onclick="viewDataset('hospital_infrastructure.csv', 'Hospital Infrastructure')">
+                    <div class="dataset-icon">🏗️</div>
+                    <h3>Hospital Infrastructure</h3>
+                    <p>Track facility resources and infrastructure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
