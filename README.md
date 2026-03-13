@@ -170,11 +170,14 @@ The LLM must return JSON in this format:
 {
   "insights": [
     {
-      "summary": "Concise 1-line insight (max 80 chars)",
-      "detail": "Detailed explanation with context and numbers",
+      "title": "Short punchy headline for senior officials",
+      "summary": "One-line summary with key metric (max 80 chars)",
+      "evidence": "Key signals from datasets",
+      "explanation": "Underlying system mechanism",
+      "implication": "Why this matters for administration",
+      "prediction": "What will happen if trend continues (optional)",
       "type": "critical",
-      "sources": ["equipment_usage.csv", "hims_opd.csv"],
-      "derived_metrics": ["opd_per_doctor"]
+      "sources": ["equipment_registry.csv", "hmis_indicators.csv"]
     }
   ],
   "actions": [

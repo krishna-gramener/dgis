@@ -166,12 +166,14 @@ async function startAnalysis() {
 
         // Step 3: Detect anomalies (AI Phase 1)
         await updateProgress(3, 'active');
-        const anomalies = await detectAnomalies();
+        // const anomalies = await detectAnomalies();
+        await new Promise(resolve => setTimeout(resolve, 2000)); // Simulate thinking
         await updateProgress(3, 'completed');
 
         // Step 4: Generate insights (AI Phase 2)
         await updateProgress(4, 'active');
-        const results = await generateInsights(anomalies);
+        // const results = await generateInsights(anomalies);
+        const results = await loadMockData(); // Load from data.json
         analysisResults = results;
         await updateProgress(4, 'completed');
 
@@ -244,6 +246,26 @@ async function loadCSV(filename) {
     }
 }
 
+// Load Mock Data from data.json
+async function loadMockData() {
+    try {
+        // Simulate AI processing time
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        
+        const response = await fetch('data.json');
+        if (!response.ok) {
+            throw new Error('Failed to load mock data');
+        }
+        
+        const data = await response.json();
+        console.log("Data loaded");
+        return data;
+    } catch (error) {
+        console.error('Error loading mock data:', error);
+        throw error;
+    }
+}
+
 // LLM Communication - Phase 1: Detect Anomalies
 async function detectAnomalies() {
     const systemPrompt = `You are analyzing district health system datasets from Uttar Pradesh.
@@ -272,7 +294,7 @@ Important rules:
 • Each anomaly must reference the dataset(s) where it was observed
 • Be specific with facility names, numbers, and metrics
 
-Return up to 12 anomalies.`;
+Return up to 12-15 interesting anomalies.`;
 
     const userPrompt = `Detect anomalies in the following district healthcare datasets.
 
@@ -351,47 +373,180 @@ Example:
 
 // LLM Communication - Phase 2: Generate Insights from Anomalies
 async function generateInsights(anomalies) {
-    const systemPrompt = `You are advising the Chief Medical Officer of a district in Uttar Pradesh.
+    const systemPrompt = `You are a senior public health systems analyst advising the District Magistrate and Chief Medical Officer of a district in Uttar Pradesh.
 
-Using the anomalies detected in the district health system, identify the underlying operational problems.
+You are analyzing operational data from the district health system using the following datasets:
+1. Facility Master – facility type and block
+2. Manav Sampda – staff postings, transfers, vacancies
+3. HMIS Indicators – facility service indicators (OPD, deliveries, surgeries, diagnostics)
+4. Equipment Registry – machines installed and functional status
 
-Your task is to diagnose systemic failures by connecting information across datasets:
-- Facility Master (facility infrastructure)
-- Manav Sampda (staff)
-- HMIS Indicators (services)
-- Equipment Registry (infrastructure)
+Your objective is NOT to summarize metrics or describe dashboards.
 
-Guidelines:
-• Build causal chains between datasets
-• Focus on operational failures where infrastructure or staffing is not translating into services
-• Ignore simple descriptive observations
-• Prioritize insights that explain WHY the system is not functioning as expected
-• Each insight must be actionable for district administration
+Your task is to identify hidden operational risks in the district health system by connecting signals across multiple datasets.
 
-Report 10-12 district-level insights categorized by severity.
+---------------------------------------------------
+
+CLINICAL REALISM RULES
+
+Respect the real service capabilities of facility types.
+
+PHC facilities:
+• PHCs normally do NOT perform major surgeries or C-sections
+• Do NOT generate insights about surgical underperformance at PHCs
+• If surgeries are zero at PHCs, ignore it as expected behavior
+
+CHC / FRU facilities:
+• CHCs may perform surgeries and C-sections if specialists are available
+• Surgical service decline at CHCs may indicate staff or infrastructure failure
+
+District hospitals:
+• Expect highest surgical and diagnostic load
+
+If an insight violates realistic facility capability, discard it.
+
+---------------------------------------------------
+
+ANALYSIS PRINCIPLES
+
+• Focus on causal chains across datasets
+Example: staff transfer → decline in surgeries → idle equipment
+
+• Ignore simple descriptive observations such as:
+  - OPD high
+  - deliveries low
+  - equipment exists
+
+• Only report insights that require connecting two or more datasets
+
+• Prioritize systemic failures where infrastructure, equipment, or staffing is not translating into services
+
+Look for patterns such as:
+• Infrastructure upgrades failing due to missing specialists
+• Equipment installed but not translating into services
+• Diagnostic services collapsing despite functional machines
+• Staff transfers affecting service delivery
+• Patient load shifting between facilities
+• Facilities approaching operational overload
+• Service indicators dropping after HR changes
+
+---------------------------------------------------
+
+MERGING RULE
+
+If multiple anomalies point to the same root cause, merge them into a single systemic insight.
+
+Do NOT produce multiple insights that describe the same operational failure.
+
+---------------------------------------------------
+
+SYSTEM LEVEL RULE
+
+Prefer district-level conclusions over isolated facility observations.
+
+If several facilities show related patterns, summarize them into one district-level operational risk.
+
+---------------------------------------------------
+
+COMPLETENESS RULE
+
+Only report insights where a plausible system mechanism can be explained.
+
+If the root cause cannot be reasonably inferred from the available datasets, discard the observation.
+
+---------------------------------------------------
+
+PREDICTIVE ANALYSIS
+
+In addition to current problems, detect emerging risks.
+
+Use recent trends to identify facilities likely to face operational stress in the next 2–3 months.
+
+Examples of predictive signals:
+• Steadily rising OPD without staff increase
+• Declining diagnostic services over multiple months
+• Sudden service drops after staff transfers
+• Equipment functional but utilization declining
+• Patient load shifting from neighboring facilities
+
+If a trend indicates a likely future failure or overload, report it as a predictive risk.
+
+---------------------------------------------------
+
+PRIORITIZATION RULE
+
+After generating candidate insights, rank them by district-level impact on patient care and system functioning.
+
+Only report the THREE highest-impact operational risks.
+
+Lower-impact facility-level anomalies should be discarded.
+
+---------------------------------------------------
+
+OUTPUT REQUIREMENTS
+
+Produce a concise intelligence briefing with exactly THREE insights.
+
+At least ONE insight should be forward-looking (predictive).
 
 For each insight provide:
-- Summary: Short, punchy headline with key metric (max 80 characters)
-- Detail: Evidence from datasets + Explanation of underlying mechanism + Administrative implication
-- Type: critical/warning/info/positive
-- Sources: Datasets used`;
 
-    const userPrompt = `Based on the following anomalies detected in the district health system, generate governance insights.
+Title:
+Short, punchy headline suitable for senior officials
+
+Evidence:
+Key signals from the datasets supporting the finding
+
+Explanation:
+Underlying system mechanism connecting the datasets
+
+Administrative Implication:
+Why this issue matters for district health administration
+
+Prediction (if applicable):
+What is likely to happen if the trend continues
+
+---------------------------------------------------
+
+WRITING STYLE
+
+Write clearly and concisely for senior district officials.
+
+Avoid technical jargon and long paragraphs.
+
+Each insight should read like a high-impact briefing point that can be quickly understood in a meeting.
+
+---------------------------------------------------
+
+IMPORTANT CONSTRAINTS
+
+• If an insight can be explained using only one dataset, do NOT report it
+• Focus on systemic failures, not descriptive statistics
+• Merge related anomalies into single insights
+• Prefer district-level over facility-level observations
+• Only report insights with explainable system mechanisms`;
+
+    const userPrompt = `Based on the following anomalies detected in the district health system, generate an operational intelligence briefing.
 
 Anomalies detected:
 ${JSON.stringify(anomalies, null, 2)}
 
-Also generate:
-1. Department-wise action items (10-15 items) based on the insights
-2. Professional email drafts (3-5 emails) to department heads requesting corrective action
+Generate:
+1. Exactly THREE highest-impact operational insights (at least one should be predictive)
+2. Department-wise action items (5-8 items) based on the top 3 insights
+3. Professional email drafts (2-3 emails) to department heads requesting corrective action
 
 Return ONLY valid JSON in the following format:
 
 {
   "insights": [
     {
-      "summary": "Concise headline with key metric (max 80 characters)",
-      "detail": "Evidence + Explanation + Administrative implication",
+      "title": "Short punchy headline for senior officials",
+      "summary": "One-line summary with key metric (max 80 characters)",
+      "evidence": "Key signals from datasets supporting the finding",
+      "explanation": "Underlying system mechanism connecting the datasets",
+      "implication": "Why this matters for district health administration",
+      "prediction": "What will happen if trend continues (optional, for predictive insights)",
       "type": "critical|warning|info|positive",
       "sources": ["dataset1.csv", "dataset2.csv"]
     }
@@ -400,7 +555,7 @@ Return ONLY valid JSON in the following format:
     {
       "issue": "Issue description",
       "department": "Responsible department",
-      "related_insight": "Short summary of related insight"
+      "related_insight": "Which of the 3 insights this relates to"
     }
   ],
   "emails": [
@@ -411,6 +566,13 @@ Return ONLY valid JSON in the following format:
     }
   ]
 }
+
+IMPORTANT:
+- Exactly 3 insights only
+- Merge related anomalies into single insights
+- Prefer district-level over facility-level observations
+- Each insight must connect 2+ datasets
+- Write for senior officials (clear, concise, no jargon)
 
 Severity classification:
 - critical: Immediate governance risk requiring urgent action
@@ -472,11 +634,27 @@ function displayInsights(insights) {
     container.innerHTML = '';
 
     insights.forEach((insight, index) => {
-        // Insight should be an object with summary, detail, type, and sources from LLM
+        // New structure: title, summary, evidence, explanation, implication, prediction
+        const title = insight.title || '';
         const summary = insight.summary || insight.text || insight.insight || insight;
-        const detail = insight.detail || summary;
+        const evidence = insight.evidence || '';
+        const explanation = insight.explanation || '';
+        const implication = insight.implication || '';
+        const prediction = insight.prediction || '';
         const type = insight.type || 'info';
         const sources = insight.sources || [];
+        
+        // Build detailed view with structured sections
+        let detailHTML = '';
+        if (evidence) detailHTML += `<div class="detail-section"><strong>Evidence:</strong> ${evidence}</div>`;
+        if (explanation) detailHTML += `<div class="detail-section"><strong>Explanation:</strong> ${explanation}</div>`;
+        if (implication) detailHTML += `<div class="detail-section"><strong>Administrative Implication:</strong> ${implication}</div>`;
+        if (prediction) detailHTML += `<div class="detail-section prediction"><strong>⚠️ Prediction:</strong> ${prediction}</div>`;
+        
+        // Fallback to old detail field if new structure not present
+        if (!detailHTML && insight.detail) {
+            detailHTML = `<div class="detail-section">${insight.detail}</div>`;
+        }
         
         const card = document.createElement('div');
         card.className = `insight-card ${type}`;
@@ -498,8 +676,9 @@ function displayInsights(insights) {
                 <div class="insight-type">${type}</div>
                 <div class="insight-expand-icon">▼</div>
             </div>
+            ${title ? `<div class="insight-title">${title}</div>` : ''}
             <div class="insight-summary">${summary}</div>
-            <div class="insight-detail hidden">${detail}</div>
+            <div class="insight-detail hidden">${detailHTML}</div>
             ${sourcesHTML}
         `;
         

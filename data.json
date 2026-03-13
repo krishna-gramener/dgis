@@ -1,0 +1,92 @@
+{
+    "insights": [
+        {
+            "title": "Critical Specialist Shortage Halts Surgeries at CHC_Salempur",
+            "summary": "C-sections dropped 94% Mar 2024 post anesthetist transfer at CHC_Salempur",
+            "evidence": "C-sections fell from 18 (Jan) and 9 (Feb) to 1 (Mar) at CHC_Salempur; anesthetist transferred out in Feb 2024; major surgeries dropped similarly despite functional equipment",
+            "explanation": "Transfer of the anesthetist at CHC_Salempur led to collapse in surgical services, as surgeries and C-sections rely on this key specialist. Equipment remained functional but unused due to lack of staff.",
+            "implication": "Surgical service breakdown endangers emergency care capabilities, increases referral burdens, and risks maternal and surgical patient outcomes across the district.",
+            "type": "critical",
+            "sources": [
+                "manav_sampda.csv",
+                "hmis_indicators.csv",
+                "equipment_registry.csv"
+            ]
+        },
+        {
+            "title": "Underutilization of PHC Specialist Staff and Equipment Limits Service Delivery",
+            "summary": "PHCs with full specialists and equipment show <5 major surgeries/month and low deliveries",
+            "evidence": "PHC_Salempur_3 and PHC_Barhaj_6 have all required specialists and functional diagnostic/operative equipment but consistently low major surgeries and institutional deliveries; OPD low to moderate",
+            "explanation": "Despite adequate staffing and infrastructure, PHCs are not delivering services consistent with capabilities—likely due to patient diversion to overloaded PHCs or block-level service design gaps limiting complex service provision at PHCs.",
+            "implication": "Resources at these PHCs are underused, increasing patient load at few high-utilization centers and risking quality gaps in timely surgical and obstetric care.",
+            "type": "warning",
+            "sources": [
+                "manav_sampda.csv",
+                "equipment_registry.csv",
+                "hmis_indicators.csv"
+            ]
+        },
+        {
+            "title": "Rising Patient Load at PHC_Barhaj_4 Predicts Future Strain Without Staffing Increase",
+            "summary": "PHC_Barhaj_4 OPD consistently ~2000+ with fluctuating surgeries, no staff changes",
+            "evidence": "OPD visits near/above 2000 monthly Jan-May 2024 at PHC_Barhaj_4; major surgeries variable but with occasional peaks; no recorded staff additions or equipment upgrades",
+            "explanation": "Steady high and fluctuating patient load without corresponding HR or infrastructure scaling indicates impending risk of service overload, reduced quality, and staff burnout.",
+            "implication": "If patient volumes persist or grow, PHC_Barhaj_4 may experience operational collapse, causing care delays and increased referrals to higher-level facilities.",
+            "prediction": "Without staff or infrastructure reinforcement, PHC_Barhaj_4 faces operational overload within 2-3 months.",
+            "type": "warning",
+            "sources": [
+                "hmis_indicators.csv",
+                "manav_sampda.csv"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "issue": "Urgent recruitment or redeployment of anesthetists to CHC_Salempur",
+            "department": "Human Resources / District Health Administration",
+            "related_insight": "Critical Specialist Shortage Halts Surgeries at CHC_Salempur"
+        },
+        {
+            "issue": "Review and redesign PHC service delivery models to optimize specialist and equipment utilization",
+            "department": "Health Systems Planning",
+            "related_insight": "Underutilization of PHC Specialist Staff and Equipment Limits Service Delivery"
+        },
+        {
+            "issue": "Conduct workload assessment and initiate staff augmentation at PHC_Barhaj_4",
+            "department": "Human Resources / Facility Management",
+            "related_insight": "Rising Patient Load at PHC_Barhaj_4 Predicts Future Strain Without Staffing Increase"
+        },
+        {
+            "issue": "Strengthen monitoring of surgical service metrics linked to staff changes district-wide",
+            "department": "Monitoring & Evaluation",
+            "related_insight": "Critical Specialist Shortage Halts Surgeries at CHC_Salempur"
+        },
+        {
+            "issue": "Engage communities to understand patient preferences potentially driving PHC underutilization",
+            "department": "Community Health / Outreach",
+            "related_insight": "Underutilization of PHC Specialist Staff and Equipment Limits Service Delivery"
+        },
+        {
+            "issue": "Plan phased equipment maintenance aligned with service demand changes",
+            "department": "Biomedical Engineering / Facility Management",
+            "related_insight": "Underutilization of PHC Specialist Staff and Equipment Limits Service Delivery"
+        }
+    ],
+    "emails": [
+        {
+            "department": "Human Resources",
+            "subject": "Urgent Action Required: Anesthetist Vacancy Impacting Surgical Services at CHC_Salempur",
+            "body": "Dear HR Head,\n\nRecent analysis revealed a 94% drop in C-sections and sharp decline in major surgeries at CHC_Salempur following the transfer of the anesthetist in February 2024. Despite functional equipment, surgical services have nearly ceased, posing a serious risk to emergency care.\n\nPlease prioritize immediate recruitment or redeployment of anesthetist staff to restore surgical capacity. Timely action is critical to avoid further patient harm and referral burdens.\n\nKind regards,\n\nSenior Health Systems Analyst"
+        },
+        {
+            "department": "Health Systems Planning",
+            "subject": "Review Required: Low Service Utilization despite Full Specialist Staffing at PHCs",
+            "body": "Dear Planning Officer,\n\nData indicates that PHC_Salempur_3 and PHC_Barhaj_6 operate with full specialist teams and functional equipment yet deliver very low numbers of major surgeries and institutional deliveries.\n\nThis underutilization suggests possible system design or patient flow issues. A review of PHC service delivery models and referral patterns is recommended to optimize resource use and balance patient loads.\n\nPlease prepare a detailed action plan.\n\nRegards,\n\nSenior Health Systems Analyst"
+        },
+        {
+            "department": "Facility Management and Human Resources",
+            "subject": "Predictive Alert: Rising Patient Load at PHC_Barhaj_4 Requires Staffing Review",
+            "body": "Dear Facility and HR Managers,\n\nPHC_Barhaj_4 reports a sustained OPD load above 2000 monthly without increases in staff or infrastructure. This trend signals emerging operational overload risk with potential declines in care quality.\n\nWe recommend an urgent workload assessment and initiation of staff reinforcement plans within the next 2–3 months to mitigate strain.\n\nPlease prioritize this for district review.\n\nBest,\n\nSenior Health Systems Analyst"
+        }
+    ]
+}
